@@ -1,4 +1,4 @@
-[gd_scene load_steps=63 format=4 uid="uid://f5y8bwwf03ac"]
+[gd_scene load_steps=65 format=4 uid="uid://f5y8bwwf03ac"]
 
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="1_elsmw"]
 [ext_resource type="Script" path="res://cenas/metro.gd" id="1_r71eq"]
@@ -11,6 +11,8 @@
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="8_r0eml"]
 [ext_resource type="Texture2D" uid="uid://bux2ro7iv8ga4" path="res://novos sprites/sprite porta.png" id="9_apqb2"]
 [ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="12_jy4l4"]
+[ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="13_eka37"]
+[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="13_f31wc"]
 [ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="16_7xfcr"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uskl"]
@@ -649,5 +651,12 @@ sprite_frames = SubResource("SpriteFrames_fknab")
 
 [node name="tempo" type="Timer" parent="."]
 wait_time = 60.0
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+script = ExtResource("13_f31wc")
+
+[node name="inventario" parent="CanvasLayer" instance=ExtResource("13_eka37")]
+offset_left = 120.0
+offset_right = -109.0
 
 [connection signal="timeout" from="tempo" to="." method="_on_tempo_timeout"]

@@ -1,0 +1,13 @@
+res://cenas/milesimoteste.tscn
+res://inventario/inventarioJogador.tres
+res://cenas/metro.tscn
+res://cenas/caixa_dialogo.tscn
+res://cenas/npcteste.tscn
+res://cenas/tela_inicial.tscn
+res://cenas/inventario.tscn
+res://cenas/interação_area.tscn
+res://cenas/gerente_interacao.tscn
+res://cenas/porta.tscn
+res://cenas/slot.tscn
+res://cenas/tela_de_dialogo.tscn
+res://cenas/title_screen.tscn
