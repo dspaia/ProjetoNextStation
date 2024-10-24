@@ -1,4 +1,4 @@
-[gd_scene load_steps=65 format=4 uid="uid://f5y8bwwf03ac"]
+[gd_scene load_steps=69 format=4 uid="uid://f5y8bwwf03ac"]
 
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="1_elsmw"]
 [ext_resource type="Script" path="res://cenas/metro.gd" id="1_r71eq"]
@@ -13,7 +13,11 @@
 [ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="12_jy4l4"]
 [ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="13_eka37"]
 [ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="13_f31wc"]
+[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="15_1ctni"]
+[ext_resource type="Script" path="res://scripts/hud_manager.gd" id="15_243tu"]
 [ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="16_7xfcr"]
+[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="16_8ms38"]
+[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="17_63xy3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uskl"]
 texture = ExtResource("7_7b1mn")
@@ -656,7 +660,81 @@ wait_time = 60.0
 script = ExtResource("13_f31wc")
 
 [node name="inventario" parent="CanvasLayer" instance=ExtResource("13_eka37")]
+visible = false
 offset_left = 120.0
 offset_right = -109.0
 
+[node name="HUB" type="CanvasLayer" parent="."]
+
+[node name="control" type="Control" parent="HUB"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("15_243tu")
+
+[node name="clock_timer" type="Timer" parent="HUB/control"]
+
+[node name="container" type="MarginContainer" parent="HUB/control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 0
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 4
+
+[node name="moedacontainer" type="HBoxContainer" parent="HUB/control/container"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="contadormoeda" type="Label" parent="HUB/control/container/moedacontainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("15_1ctni")
+theme_override_font_sizes/font_size = 8
+text = "000"
+
+[node name="moedaicone" type="TextureRect" parent="HUB/control/container/moedacontainer"]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+texture = ExtResource("16_8ms38")
+
+[node name="timercontainer" type="HBoxContainer" parent="HUB/control/container"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+
+[node name="contadortime" type="Label" parent="HUB/control/container/timercontainer"]
+layout_mode = 2
+theme_override_constants/outline_size = 4
+theme_override_fonts/font = ExtResource("15_1ctni")
+theme_override_font_sizes/font_size = 8
+text = "00:00"
+
+[node name="moeda" type="Node2D" parent="."]
+
+[node name="moeda" parent="moeda" instance=ExtResource("17_63xy3")]
+position = Vector2(222.556, 70.8132)
+scale = Vector2(0.595354, 0.595354)
+
+[node name="moeda2" parent="moeda" instance=ExtResource("17_63xy3")]
+position = Vector2(148.37, 70.8132)
+scale = Vector2(0.595354, 0.595354)
+
+[node name="moeda3" parent="moeda" instance=ExtResource("17_63xy3")]
+position = Vector2(259.648, 70.8132)
+scale = Vector2(0.595354, 0.595354)
+
+[node name="moeda4" parent="moeda" instance=ExtResource("17_63xy3")]
+position = Vector2(91.0455, 70.8132)
+scale = Vector2(0.595354, 0.595354)
+
 [connection signal="timeout" from="tempo" to="." method="_on_tempo_timeout"]
+[connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]
