@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://p0v7eutb3ry1"]
+
+[ext_resource type="Script" path="res://scripts/tela_inicial.gd" id="1_f3pci"]
+
+[node name="tela inicial" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f3pci")
+
+[node name="fundo" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="container horizontal" type="HBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="container vertical" type="VBoxContainer" parent="MarginContainer/container horizontal"]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/container horizontal/container vertical"]
+layout_mode = 2
+
+[node name="jogar" type="Button" parent="MarginContainer/container horizontal/container vertical"]
+layout_mode = 2
+text = "JOGAR"
+
+[node name="créditos" type="Button" parent="MarginContainer/container horizontal/container vertical"]
+layout_mode = 2
+text = "CRÉDITOS"
+
+[node name="sair" type="Button" parent="MarginContainer/container horizontal/container vertical"]
+layout_mode = 2
+text = "SAIR"
+
+[connection signal="pressed" from="MarginContainer/container horizontal/container vertical/jogar" to="." method="_on_jogar_pressed"]
+[connection signal="pressed" from="MarginContainer/container horizontal/container vertical/créditos" to="." method="_on_créditos_pressed"]
+[connection signal="pressed" from="MarginContainer/container horizontal/container vertical/sair" to="." method="_on_sair_pressed"]

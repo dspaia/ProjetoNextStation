@@ -1,2 +1,1 @@
-# JUNCAODETUDO
-aqui fudeu pa nois familia
+git config --global core.autocrlf true
