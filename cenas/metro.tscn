@@ -721,19 +721,19 @@ text = "00:00"
 [node name="moeda" type="Node2D" parent="."]
 
 [node name="moeda" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(222.556, 70.8132)
+position = Vector2(20.2323, 84.3014)
 scale = Vector2(0.595354, 0.595354)
 
 [node name="moeda2" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(148.37, 70.8132)
+position = Vector2(26.9764, 60.697)
 scale = Vector2(0.595354, 0.595354)
 
 [node name="moeda3" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(259.648, 70.8132)
+position = Vector2(37.0926, 74.1852)
 scale = Vector2(0.595354, 0.595354)
 
 [node name="moeda4" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(91.0455, 70.8132)
+position = Vector2(13.4882, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
 [connection signal="timeout" from="tempo" to="." method="_on_tempo_timeout"]

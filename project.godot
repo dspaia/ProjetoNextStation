@@ -20,6 +20,7 @@ config/icon="res://icon.svg"
 GerenteInteracao="*res://cenas/gerente_interacao.tscn"
 Gerentedialogo="*res://scripts/gerentedialogo.gd"
 Tudo="*res://scripts/tudo.gd"
+Gerentemissaosenhora="*res://scripts/gerentemissaosenhora.gd"
 
 [display]
 
