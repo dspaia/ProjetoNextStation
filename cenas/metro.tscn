@@ -643,7 +643,7 @@ position = Vector2(1.5, 36)
 shape = SubResource("RectangleShape2D_shlko")
 
 [node name="npcrandom" parent="." instance=ExtResource("16_7xfcr")]
-position = Vector2(371.769, 74.1852)
+position = Vector2(364.182, 53.9529)
 
 [node name="tvzinha" type="AnimatedSprite2D" parent="."]
 position = Vector2(111.699, 16.0173)
@@ -721,19 +721,19 @@ text = "00:00"
 [node name="moeda" type="Node2D" parent="."]
 
 [node name="moeda" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(20.2323, 84.3014)
+position = Vector2(50.5808, 60.697)
 scale = Vector2(0.595354, 0.595354)
 
 [node name="moeda2" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(26.9764, 60.697)
+position = Vector2(23.6044, 87.6734)
 scale = Vector2(0.595354, 0.595354)
 
 [node name="moeda3" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(37.0926, 74.1852)
+position = Vector2(84.3014, 87.6734)
 scale = Vector2(0.595354, 0.595354)
 
 [node name="moeda4" parent="moeda" instance=ExtResource("17_63xy3")]
-position = Vector2(13.4882, 70.8132)
+position = Vector2(131.51, 64.069)
 scale = Vector2(0.595354, 0.595354)
 
 [connection signal="timeout" from="tempo" to="." method="_on_tempo_timeout"]

@@ -1,36 +1,88 @@
-[gd_scene load_steps=7 format=3 uid="uid://xyv130iwclhk"]
+[gd_scene load_steps=14 format=3 uid="uid://xyv130iwclhk"]
 
 [ext_resource type="Script" path="res://scripts/npcteste.gd" id="1_23yx7"]
-[ext_resource type="Texture2D" uid="uid://cpkq7dmw2pqj7" path="res://assento preferencial.png" id="1_dub8v"]
+[ext_resource type="Texture2D" uid="uid://r6ovvx3g1txe" path="res://sprite dona cleusa (parado direita-esquerda) 384x128.png" id="2_djfgx"]
 [ext_resource type="PackedScene" uid="uid://bnj4luwe8p8ds" path="res://cenas/interação_area.tscn" id="2_kh06t"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_xy0lx"]
-atlas = ExtResource("1_dub8v")
-region = Rect2(0, 0, 32, 32)
+[sub_resource type="AtlasTexture" id="AtlasTexture_4jhii"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(0, 0, 48, 58)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_7h3li"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_e13rf"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(48, 0, 48, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qklkb"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(96, 0, 48, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fueuv"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(144, 0, 48, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m1th2"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(192, 0, 48, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wbomt"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(240, 0, 48, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kvbar"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(288, 0, 48, 58)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jj407"]
+atlas = ExtResource("2_djfgx")
+region = Rect2(336, 0, 48, 58)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7mk4o"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_xy0lx")
+"texture": SubResource("AtlasTexture_4jhii")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e13rf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qklkb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fueuv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m1th2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wbomt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kvbar")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jj407")
 }],
 "loop": true,
-"name": &"default",
-"speed": 5.0
+"name": &"esquerda_dalva",
+"speed": 6.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_dkh8j"]
-radius = 14.8661
+radius = 26.0192
 
-[node name="npcrandom" type="Node2D"]
+[node name="DonaDalva" type="Node2D"]
 script = ExtResource("1_23yx7")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_7h3li")
+sprite_frames = SubResource("SpriteFrames_7mk4o")
+animation = &"esquerda_dalva"
+autoplay = "esquerda_dalva"
+frame_progress = 0.876438
 
 [node name="interação_area" parent="." instance=ExtResource("2_kh06t")]
+collision_mask = 2
 "nome_da_ação" = " Interagir"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="interação_area"]
-position = Vector2(-1, 5)
 shape = SubResource("CircleShape2D_dkh8j")

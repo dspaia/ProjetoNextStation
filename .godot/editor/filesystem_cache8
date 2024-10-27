@@ -1,26 +1,27 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1730057478
+::res://::1730066335
 assento comum.png::CompressedTexture2D::7903570217168958454::1730050845::1730057478::1::::<><>::
 assento preferencial.png::CompressedTexture2D::5847346593930477946::1730050845::1730057478::1::::<><>::
 icon.svg::CompressedTexture2D::7500813948369412993::1730050845::1730057478::1::::<><>::
 porta fechada.png::CompressedTexture2D::3497914795270212150::1730050845::1730057478::1::::<><>::
 README.md::TextFile::-1::1730051464::0::1::::<><>::
 sprite aleatorio.png::CompressedTexture2D::3358010420050282396::1730050845::1730057478::1::::<><>::
+sprite dona cleusa (parado direita-esquerda) 384x128.png::CompressedTexture2D::1258094731595246030::1730066335::1730066336::1::::<><>::
 tunel.png::CompressedTexture2D::9113482864305306121::1730050845::1730057478::1::::<><>::
 vagao finalizado.png::CompressedTexture2D::3241899294457213696::1730050845::1730057478::1::::<><>::
 ::res://audios/::1730057477
 moedaaudio.tscn::PackedScene::5244197458789357110::1730050845::0::1::::<><>::uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
 money-pickup-2-89563.mp3::AudioStreamMP3::7473184411680825039::1730050845::1730057477::1::::<><>::
-::res://cenas/::1730050845
+::res://cenas/::1730064639
 caixa_dialogo.tscn::PackedScene::3019450391415330737::1730050845::0::1::::<><>::res://scripts/caixa_dialogo.gd<>uid://dgsjfonvd0q1i::::res://Dialogo/dialogue_box.png<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
 gerente_interacao.tscn::PackedScene::6757341566358151971::1730050845::0::1::::<><>::res://scripts/gerente_interacao.gd<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
 interação_area.tscn::PackedScene::3319236571976409988::1730050845::0::1::::<><>::res://scripts/interação_area.gd
 inventario.tscn::PackedScene::4443942548461640222::1730050845::0::1::::<><>::res://scripts/inventario.gd<>uid://b52v8blf7fhox::::res://novos sprites/inventario/inventario-slot (2).png<>uid://d1or58y6vxerc::::res://cenas/slot.tscn
 metro.gd::GDScript::-1::1730050845::0::1::::<>Node2D<>::
-metro.tscn::PackedScene::414391777353535178::1730050845::0::1::::<><>::uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>res://cenas/metro.gd<>uid://bjt2uu5twuwmo::::res://novos sprites/fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://novos sprites/fundo cidade/3.png<>uid://bw3eybephss0t::::res://novos sprites/fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://novos sprites/fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://novos sprites/fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/canvas_layer.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>res://scripts/hud_manager.gd<>uid://xyv130iwclhk::::res://cenas/npcteste.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://ct1b01s28r2p1::::res://cenas/moeda.tscn
-milesimoteste.tscn::PackedScene::3429778145947638137::1730050845::0::1::::<><>::res://scripts/milesimoteste.gd<>uid://bn3v682lhni1q::::res://sprite aleatorio.png
+metro.tscn::PackedScene::414391777353535178::1730064639::0::1::::<><>::uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>res://cenas/metro.gd<>uid://bjt2uu5twuwmo::::res://novos sprites/fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://novos sprites/fundo cidade/3.png<>uid://bw3eybephss0t::::res://novos sprites/fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://novos sprites/fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://novos sprites/fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/canvas_layer.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>res://scripts/hud_manager.gd<>uid://xyv130iwclhk::::res://cenas/npcteste.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://ct1b01s28r2p1::::res://cenas/moeda.tscn
+milesimoteste.tscn::PackedScene::3429778145947638137::1730064638::0::1::::<><>::res://scripts/milesimoteste.gd<>uid://bn3v682lhni1q::::res://sprite aleatorio.png
 moeda.tscn::PackedScene::6160209974639899132::1730050845::0::1::::<><>::uid://bpyy4xlcrkrkd::::res://novos sprites/coin - Copia.png<>res://scripts/moeda.gd<>uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
-npcteste.tscn::PackedScene::1665211466928691284::1730050845::0::1::::<><>::res://scripts/npcteste.gd<>uid://cpkq7dmw2pqj7::::res://assento preferencial.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
+npcteste.tscn::PackedScene::1665211466928691284::1730064639::0::1::::<><>::res://scripts/npcteste.gd<>uid://cpkq7dmw2pqj7::::res://assento preferencial.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
 porta.tscn::PackedScene::909469687450943951::1730050845::0::1::::<><>::uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png
 slot.tscn::PackedScene::9014160808702489916::1730050845::0::1::::<><>::res://scripts/slot.gd<>uid://be0j1ibl7apy::::res://novos sprites/inventario/inventario-slot.png
 tela_de_dialogo.tscn::PackedScene::445366419721001653::1730050845::0::1::::<><>::
@@ -56,9 +57,9 @@ PixeloidSans.woff2::FontFile::7156756654351556485::1730050845::1730057477::1::::
 5.png::CompressedTexture2D::2292110778154952433::1730050845::1730057478::1::::<><>::
 nuvens (1).png::CompressedTexture2D::3988663607262453261::1730050845::1730057478::1::::<><>::
 segurador 480x160.png::CompressedTexture2D::5127150798991011172::1730050845::1730057478::1::::<><>::
-::res://inventario/::1730050845
+::res://inventario/::1730061330
 inventario.gd::GDScript::-1::1730050845::0::1::::Inventario<>Resource<>::
-inventarioJogador.tres::Resource/Inventario::1965149269259783035::1730050845::0::1::::<><>::res://inventario/itensinventario.gd<>uid://be2oxt75qyimi::::res://inventario/itens/chocolate.tres<>uid://dxfmp6xasmlpr::::res://inventario/itens/livro.tres<>uid://crvmfs8sd2lf3::::res://inventario/itens/guarda-chuva.tres<>uid://bqfgyv1o6ama0::::res://inventario/itens/kit-faca.tres<>res://inventario/inventario.gd
+inventarioJogador.tres::Resource/Inventario::1965149269259783035::1730061330::0::1::::<><>::res://inventario/itensinventario.gd<>uid://be2oxt75qyimi::::res://inventario/itens/chocolate.tres<>uid://dxfmp6xasmlpr::::res://inventario/itens/livro.tres<>uid://crvmfs8sd2lf3::::res://inventario/itens/guarda-chuva.tres<>uid://bqfgyv1o6ama0::::res://inventario/itens/kit-faca.tres<>res://inventario/inventario.gd
 itensinventario.gd::GDScript::-1::1730050845::0::1::::ItensInventario<>Resource<>::
 ::res://inventario/itens/::1730050845
 carteira.tres::Resource/ItensInventario::2349713189602227341::1730050845::0::1::::<><>::res://inventario/itensinventario.gd<>uid://orlq8m880gb8::::res://novos sprites/inventario/carteira.png
@@ -122,7 +123,7 @@ inventario-slot.png::CompressedTexture2D::79981729645509606::1730050845::1730057
 kit-faca(1).png::CompressedTexture2D::5846228449639934423::1730050845::1730057477::1::::<><>::
 livro(3).png::CompressedTexture2D::4581833237238633827::1730050845::1730057477::1::::<><>::
 meia (2).png::CompressedTexture2D::293412766391186574::1730050845::1730057477::1::::<><>::
-::res://scripts/::1730059389
+::res://scripts/::1730063834
 animated_sprite_2d.gd::GDScript::-1::1730050845::0::1::::<>AnimatedSprite2D<>::
 assento_7.gd::GDScript::-1::1730050845::0::1::::<>CollisionShape2D<>::
 assento_comum.gd::GDScript::-1::1730050845::0::1::::assento<>Sprite2D<>::
@@ -131,6 +132,7 @@ camera_2d.gd::GDScript::-1::1730050845::0::1::::<>Camera2D<>::
 canvas_layer.gd::GDScript::-1::1730050845::0::1::::<>CanvasLayer<>::
 character_body_2d.gd::GDScript::-1::1730050845::0::1::::<>CharacterBody2D<>::
 gerentedialogo.gd::GDScript::-1::1730050845::0::1::::<>Node<>::
+gerentemissaosenhora.gd::GDScript::-1::1730063225::0::1::::<>Node<>::
 gerente_interacao.gd::GDScript::-1::1730050845::0::1::::<>Node2D<>::
 global.gd::GDScript::-1::1730050845::0::1::::<>Camera2D<>::
 hud_manager.gd::GDScript::-1::1730050845::0::1::::<>Control<>::
@@ -138,11 +140,10 @@ interação_area.gd::GDScript::-1::1730050845::0::1::::InteraçãoArea<>Area2D<>
 inventario.gd::GDScript::-1::1730050845::0::1::::<>Control<>::
 metro.gd::GDScript::-1::1730050845::0::1::::<>Node2D<>::
 milesimoteste.gd::GDScript::-1::1730050845::0::1::::<>CharacterBody2D<>::
-moeda.gd::GDScript::-1::1730050845::0::1::::<>Area2D<>::
-npcteste.gd::GDScript::-1::1730050845::0::1::::<>Node2D<>::
+moeda.gd::GDScript::-1::1730063834::0::1::::<>Area2D<>::
+npcteste.gd::GDScript::-1::1730061330::0::1::::<>Node2D<>::
 parallax_background.gd::GDScript::-1::1730050845::0::1::::<>Node2D<>::
 parallax_layer.gd::GDScript::-1::1730050845::0::1::::<>Parallax2D<>::
-missaosenhora.gd::GDScript::-1::1730059389::0::1::::<>Node<>::
 slot.gd::GDScript::-1::1730050845::0::1::::<>Panel<>::
 tela_inicial.gd::GDScript::-1::1730050845::0::1::::<>Control<>::
 tudo.gd::GDScript::-1::1730050845::0::1::::<>Node<>::

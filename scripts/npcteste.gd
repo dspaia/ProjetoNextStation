@@ -1,6 +1,7 @@
 extends Node2D
 
 @onready var interação_area: InteraçãoArea = $"interação_area"
+@export var jogador = CharacterBody2D
 
 const fala_inicial: Array[String] = [
 	"Oh meu jovem",

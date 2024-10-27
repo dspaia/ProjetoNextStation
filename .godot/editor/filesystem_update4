@@ -1,7 +1,7 @@
-res://cenas/metro.tscn
-res://inventario/inventarioJogador.tres
-res://scripts/gerentemissaosenhora.gd
-res://scripts/moeda.gd
-res://scripts/npcteste.gd
-res://cenas/milesimoteste.tscn
 res://cenas/npcteste.tscn
+res://inventario/inventarioJogador.tres
+res://cenas/milesimoteste.tscn
+res://cenas/metro.tscn
+res://scripts/npcteste.gd
+res://cenas/interação_area.tscn
+res://cenas/gerente_interacao.tscn
