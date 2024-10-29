@@ -1,0 +1,14 @@
+Label
+HBoxContainer
+Timer
+AudioStreamPlayer2D
+Node2D
+Node
+CollisionShape2D
+AnimatedSprite2D
+Area2D
+TextureRect
+MarginContainer
+Control
+CanvasLayer
+NinePatchRect

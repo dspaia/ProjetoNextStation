@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Inventario" load_steps=7 format=3 uid="uid://286yr5bywa6n"]
+
+[ext_resource type="Script" path="res://inventario/itensinventario.gd" id="1_ngopi"]
+[ext_resource type="Resource" uid="uid://be2oxt75qyimi" path="res://inventario/itens/chocolate.tres" id="2_uwxts"]
+[ext_resource type="Resource" uid="uid://dxfmp6xasmlpr" path="res://inventario/itens/livro.tres" id="3_g1j5p"]
+[ext_resource type="Resource" uid="uid://crvmfs8sd2lf3" path="res://inventario/itens/guarda-chuva.tres" id="4_dvpcm"]
+[ext_resource type="Resource" uid="uid://bqfgyv1o6ama0" path="res://inventario/itens/kit-faca.tres" id="5_16sha"]
+[ext_resource type="Script" path="res://inventario/inventario.gd" id="5_a8upi"]
+
+[resource]
+script = ExtResource("5_a8upi")
+itens = Array[ExtResource("1_ngopi")]([ExtResource("2_uwxts"), ExtResource("3_g1j5p"), ExtResource("4_dvpcm"), null, null, null, ExtResource("2_uwxts"), ExtResource("5_16sha"), null, null])

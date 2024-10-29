@@ -1,0 +1,9 @@
+res://cenas/milesimoteste.tscn
+res://inventario/inventarioJogador.tres
+res://cenas/metro.tscn
+res://cenas/npcteste.tscn
+res://cenas/interação_area.tscn
+res://cenas/moeda.tscn
+res://scripts/moeda.gd
+res://scripts/hud_manager.gd
+res://scripts/tudo.gd

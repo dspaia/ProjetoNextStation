@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # NEXT STATION
 
+=======
+>>>>>>> só_fé
 Nosso jogo chama-se Next Station e se passa todo dentro de um vagão de um metrô. O objetivo dele é mostrar o trajeto de Pedro Braga, um trabalhador que mora na zona sul de São Paulo e pega o metrô na estação Jabaquara, até seu emprego, que fica em uma outra estação (ainda a ser definida).
 
 Para mover o personagem, podem ser usadas setinhas ou WASD. Para abrir o inventário, usa-se o i, para interagir com outros personagens, usa-se o e, e para passar para a próxima fala deles, usa-se a barra de espaço. 
