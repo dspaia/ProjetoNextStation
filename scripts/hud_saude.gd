@@ -54,4 +54,4 @@ func end_game():
 		
 		# Muda para a nova cena
 		print("Mudando para a nova cena!")
-		get_tree().change_scene_to_file("res://cenas/Saude.tscn") # Altera a cena para a especificada
+		get_tree().change_scene_to_file("res://cenas/Praca_da_Arvore.tscn") # Altera a cena para a especificada

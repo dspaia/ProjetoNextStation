@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+Label
+HBoxContainer
 HSeparator
 Sprite2D
 ParallaxLayer
@@ -8,21 +9,6 @@ TileMapLayer
 AnimationPlayer
 ColorRect
 CanvasLayer
-=======
 ColorRect
 Sprite2D
->>>>>>> cronometro
-Label
 VBoxContainer
-Control
-AnimatedSprite2D
-HBoxContainer
-AudioStreamPlayer2D
-Node2D
-Node
-CollisionShape2D
-<<<<<<< HEAD
-=======
-Area2D
-TextureRect
->>>>>>> cronometro
