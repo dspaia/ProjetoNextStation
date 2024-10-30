@@ -1,19 +1,28 @@
 extends Node2D
 
-@onready var tempo := $tempo as Timer
-# Called when the node enters the scene tree for the first time.
+@onready var fade_in := $fade_in as Timer
+@onready var fade_out := $fade_in/fade_out as Timer
+@onready var transicao := $ColorRect
+@onready var animacao := $"transição/ColorRect/animaçao"
+@onready var mudar_cena := $fade_in/mudar_cena as Timer
+
 func _ready() -> void:
 	$tvzinha.play()
 	$tvzinha2.play()
-	tempo.start()
+	fade_in.start()
+	
+	
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
 
 
 func _on_tempo_timeout() -> void:
-	$TileMapLayer/porta.play()
-	$TileMapLayer/porta2.play()
-	$TileMapLayer/porta3.play()
-	$TileMapLayer/porta4.play()
+	animacao.play("fade_in")
+	fade_out.start()
+	print("Próxima estação: Conceição")
+
+
+
+func _on_fade_out_timeout() -> void:
+	animacao.play("fade_out")
