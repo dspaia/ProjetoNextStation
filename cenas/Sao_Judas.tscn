@@ -1,58 +1,27 @@
-<<<<<<< HEAD:cenas/Sao_Judas.tscn
-[gd_scene load_steps=34 format=4 uid="uid://b2ff3m42hd27y"]
+[gd_scene load_steps=34 format=4 uid="uid://cqxvtpusogr86"]
 
-[ext_resource type="Script" path="res://cenas/sao_judas.gd" id="1_vklct"]
-[ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_fyxbx"]
-[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://fundo cidade/1.png" id="3_wef3c"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_hww30"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_e4lpp"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_3viqs"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_gfkvs"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_je0us"]
-[ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_nwkmx"]
-[ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_nh0wt"]
-[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_m0u57"]
-[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="12_dqo12"]
-[ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_mrblu"]
-[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_r1428"]
-[ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_uxs0o"]
-[ext_resource type="Script" path="res://scripts/hud_saojudas.gd" id="16_n17l3"]
-[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_56raq"]
-[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_ynbf3"]
-[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_cjkb4"]
-=======
-[gd_scene load_steps=74 format=3 uid="uid://f5y8bwwf03ac"]
+[ext_resource type="Script" path="res://cenas/sao_judas.gd" id="1_6o7lt"]
+[ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_lys7d"]
+[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="3_osr8l"]
+[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="4_5a30o"]
+[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="5_lsoyu"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://novos sprites/fundo cidade/nuvens (1).png" id="6_gngqu"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://novos sprites/fundo cidade/4.png" id="7_qf8xv"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://novos sprites/fundo cidade/5.png" id="8_cadec"]
+[ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_1pdcf"]
+[ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_ykbpx"]
+[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_yby2i"]
+[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="12_18bgt"]
+[ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_lkqpl"]
+[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_6pkug"]
+[ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_q5q5x"]
+[ext_resource type="Script" path="res://scripts/hud_saojudas.gd" id="16_3v4el"]
+[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_wk6wh"]
+[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_1sic2"]
+[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_eagi7"]
 
-[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="1_elsmw"]
-[ext_resource type="Script" path="res://cenas/metro.gd" id="1_r71eq"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="2_plexf"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="3_3xdjy"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="4_onufx"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="5_6q64l"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="6_pm0vx"]
-[ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="7_7b1mn"]
-[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="8_r0eml"]
-[ext_resource type="Texture2D" uid="uid://bux2ro7iv8ga4" path="res://novos sprites/sprite porta.png" id="9_apqb2"]
-[ext_resource type="Resource" uid="uid://7svv4eqxdcxc" path="res://inventario/itens/pendrive.tres" id="11_mljkb"]
-[ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="12_jy4l4"]
-[ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="13_eka37"]
-[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="13_f31wc"]
-[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="15_1ctni"]
-[ext_resource type="Script" path="res://scripts/hud_manager.gd" id="15_243tu"]
-[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="16_7xfcr"]
-[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="16_8ms38"]
-[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="17_63xy3"]
-[ext_resource type="PackedScene" uid="uid://n2yukhlsyt6n" path="res://cenas/pendrive.tscn" id="19_axrr5"]
-[ext_resource type="PackedScene" uid="uid://c6bcg42cs0uvr" path="res://cenas/fones.tscn" id="20_j7mno"]
-[ext_resource type="Resource" uid="uid://xdmpnixbuq2y" path="res://inventario/itens/fones.tres" id="22_kjonx"]
-
-[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_a5dl5"]
-resource_name = "coletaveis"
-scenes/1/scene = ExtResource("19_axrr5")
->>>>>>> coletaveis_inventario:cenas/metro.tscn
-
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uskl"]
-texture = ExtResource("9_nwkmx")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utahu"]
+texture = ExtResource("9_1pdcf")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -228,50 +197,48 @@ texture = ExtResource("9_nwkmx")
 3:2/0 = 0
 3:1/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_gwbqk"]
-physics_layer_0/collision_layer = 1
-sources/1 = SubResource("TileSetAtlasSource_8uskl")
-sources/0 = SubResource("TileSetScenesCollectionSource_a5dl5")
+[sub_resource type="TileSet" id="TileSet_k7orx"]
+sources/1 = SubResource("TileSetAtlasSource_utahu")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_u1ch8"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gtgcq"]
 size = Vector2(20, 96)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_i4j0q"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kloim"]
 size = Vector2(488, 20)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_diiwb"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1nphr"]
 size = Vector2(20, 96)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wxgb4"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a6twm"]
 size = Vector2(488, 20)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_2wo5t"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_daamf"]
 size = Vector2(448, 56)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_shlko"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_27ns6"]
 size = Vector2(3, 72)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k76nm"]
-atlas = ExtResource("13_mrblu")
+atlas = ExtResource("13_lkqpl")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lq0sb"]
-atlas = ExtResource("13_mrblu")
+atlas = ExtResource("13_lkqpl")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_00bcd"]
-atlas = ExtResource("13_mrblu")
+atlas = ExtResource("13_lkqpl")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yvtmq"]
-atlas = ExtResource("13_mrblu")
+atlas = ExtResource("13_lkqpl")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_usk5y"]
-atlas = ExtResource("13_mrblu")
+atlas = ExtResource("13_lkqpl")
 region = Rect2(128, 0, 32, 32)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_fknab"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_7rep4"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -296,9 +263,9 @@ animations = [{
 
 [node name="metro" type="Node2D"]
 scale = Vector2(2.37244, 2.37244)
-script = ExtResource("1_vklct")
+script = ExtResource("1_6o7lt")
 
-[node name="transição" parent="." instance=ExtResource("2_fyxbx")]
+[node name="transição" parent="." instance=ExtResource("2_lys7d")]
 
 [node name="ParallaxBackground" type="Node2D" parent="."]
 
@@ -310,7 +277,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("3_wef3c")
+texture = ExtResource("3_osr8l")
 
 [node name="ParallaxLayer3" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -320,7 +287,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("4_hww30")
+texture = ExtResource("4_5a30o")
 
 [node name="ParallaxLayer4" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -330,7 +297,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("5_e4lpp")
+texture = ExtResource("5_lsoyu")
 
 [node name="ParallaxLayer2" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -340,7 +307,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("6_3viqs")
+texture = ExtResource("6_gngqu")
 
 [node name="ParallaxLayer5" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -350,7 +317,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("7_gfkvs")
+texture = ExtResource("7_qf8xv")
 
 [node name="ParallaxLayer6" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -360,99 +327,87 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer6"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("8_je0us")
+texture = ExtResource("8_cadec")
 
-[node name="TileMapLayer" type="TileMap" parent="."]
-tile_set = SubResource("TileSet_gwbqk")
-format = 2
-layer_0/tile_data = PackedInt32Array(0, 1, 0, 65536, 1, 1, 131072, 1, 2, 196608, 1, 3, 262144, 1, 4, 327680, 1, 5, 1, 65537, 0, 65537, 65537, 1, 131073, 65537, 2, 196609, 65537, 3, 262145, 65537, 4, 327681, 65537, 5, 2, 131073, 0, 65538, 131073, 1, 131074, 131073, 2, 196610, 131073, 3, 262146, 131073, 4, 327682, 131073, 5, 3, 196609, 0, 65539, 196609, 1, 131075, 196609, 2, 196611, 196609, 3, 262147, 196609, 4, 327683, 196609, 5, 4, 262145, 0, 65540, 262145, 1, 131076, 262145, 2, 196612, 262145, 3, 262148, 262145, 4, 327684, 262145, 5, 5, 327681, 0, 65541, 327681, 1, 131077, 327681, 2, 196613, 327681, 3, 262149, 327681, 4, 327685, 327681, 5, 6, 393217, 0, 65542, 393217, 1, 131078, 393217, 2, 196614, 393217, 3, 262150, 393217, 4, 327686, 393217, 5, 7, 458753, 0, 65543, 458753, 1, 131079, 458753, 2, 196615, 458753, 3, 262151, 458753, 4, 327687, 458753, 5, 8, 524289, 0, 65544, 524289, 1, 131080, 524289, 2, 196616, 524289, 3, 262152, 524289, 4, 327688, 524289, 5, 9, 589825, 0, 65545, 589825, 1, 131081, 589825, 2, 196617, 589825, 3, 262153, 589825, 4, 327689, 589825, 5, 10, 655361, 0, 65546, 655361, 1, 131082, 655361, 2, 196618, 655361, 3, 262154, 655361, 4, 327690, 655361, 5, 11, 720897, 0, 65547, 720897, 1, 131083, 720897, 2, 196619, 720897, 3, 262155, 720897, 4, 327691, 720897, 5, 12, 786433, 0, 65548, 786433, 1, 131084, 786433, 2, 196620, 786433, 3, 262156, 786433, 4, 327692, 786433, 5, 13, 851969, 0, 65549, 851969, 1, 131085, 851969, 2, 196621, 851969, 3, 262157, 851969, 4, 327693, 851969, 5, 14, 917505, 0, 65550, 917505, 1, 131086, 917505, 2, 196622, 917505, 3, 262158, 917505, 4, 327694, 917505, 5, 15, 983041, 0, 65551, 983041, 1, 131087, 983041, 2, 196623, 983041, 3, 262159, 983041, 4, 327695, 983041, 5, 16, 1048577, 0, 65552, 1048577, 1, 131088, 1048577, 2, 196624, 1048577, 3, 262160, 1048577, 4, 327696, 1048577, 5, 17, 1114113, 0, 65553, 1114113, 1, 131089, 1114113, 2, 196625, 1114113, 3, 262161, 1114113, 4, 327697, 1114113, 5, 18, 1179649, 0, 65554, 1179649, 1, 131090, 1179649, 2, 196626, 1179649, 3, 262162, 1179649, 4, 327698, 1179649, 5, 19, 1245185, 0, 65555, 1245185, 1, 131091, 1245185, 2, 196627, 1245185, 3, 262163, 1245185, 4, 327699, 1245185, 5, 20, 1310721, 0, 65556, 1310721, 1, 131092, 1310721, 2, 196628, 1310721, 3, 262164, 1310721, 4, 327700, 1310721, 5, 21, 1376257, 0, 65557, 1376257, 1, 131093, 1376257, 2, 196629, 1376257, 3, 262165, 1376257, 4, 327701, 1376257, 5, 22, 1441793, 0, 65558, 1441793, 1, 131094, 1441793, 2, 196630, 1441793, 3, 262166, 1441793, 4, 327702, 1441793, 5, 23, 1507329, 0, 65559, 1507329, 1, 131095, 1507329, 2, 196631, 1507329, 3, 262167, 1507329, 4, 327703, 1507329, 5, 24, 1572865, 0, 65560, 1572865, 1, 131096, 1572865, 2, 196632, 1572865, 3, 262168, 1572865, 4, 327704, 1572865, 5, 25, 1638401, 0, 65561, 1638401, 1, 131097, 1638401, 2, 196633, 1638401, 3, 262169, 1638401, 4, 327705, 1638401, 5, 26, 1703937, 0, 65562, 1703937, 1, 131098, 1703937, 2, 196634, 1703937, 3, 262170, 1703937, 4, 327706, 1703937, 5, 27, 1769473, 0, 65563, 1769473, 1, 131099, 1769473, 2, 196635, 1769473, 3, 262171, 1769473, 4, 327707, 1769473, 5, 28, 1835009, 0, 65564, 1835009, 1, 131100, 1835009, 2, 196636, 1835009, 3, 262172, 1835009, 4, 327708, 1835009, 5)
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAEAAQAAAAEAAAAAAAIAAQAAAAIAAAAAAAMAAQAAAAMAAAAAAAQAAQAAAAQAAAAAAAUAAQAAAAUAAAABAAAAAQABAAAAAAABAAEAAQABAAEAAAABAAIAAQABAAIAAAABAAMAAQABAAMAAAABAAQAAQABAAQAAAABAAUAAQABAAUAAAACAAAAAQACAAAAAAACAAEAAQACAAEAAAACAAIAAQACAAIAAAACAAMAAQACAAMAAAACAAQAAQACAAQAAAACAAUAAQACAAUAAAADAAAAAQADAAAAAAADAAEAAQADAAEAAAADAAIAAQADAAIAAAADAAMAAQADAAMAAAADAAQAAQADAAQAAAADAAUAAQADAAUAAAAEAAAAAQAEAAAAAAAEAAEAAQAEAAEAAAAEAAIAAQAEAAIAAAAEAAMAAQAEAAMAAAAEAAQAAQAEAAQAAAAEAAUAAQAEAAUAAAAFAAAAAQAFAAAAAAAFAAEAAQAFAAEAAAAFAAIAAQAFAAIAAAAFAAMAAQAFAAMAAAAFAAQAAQAFAAQAAAAFAAUAAQAFAAUAAAAGAAAAAQAGAAAAAAAGAAEAAQAGAAEAAAAGAAIAAQAGAAIAAAAGAAMAAQAGAAMAAAAGAAQAAQAGAAQAAAAGAAUAAQAGAAUAAAAHAAAAAQAHAAAAAAAHAAEAAQAHAAEAAAAHAAIAAQAHAAIAAAAHAAMAAQAHAAMAAAAHAAQAAQAHAAQAAAAHAAUAAQAHAAUAAAAIAAAAAQAIAAAAAAAIAAEAAQAIAAEAAAAIAAIAAQAIAAIAAAAIAAMAAQAIAAMAAAAIAAQAAQAIAAQAAAAIAAUAAQAIAAUAAAAJAAAAAQAJAAAAAAAJAAEAAQAJAAEAAAAJAAIAAQAJAAIAAAAJAAMAAQAJAAMAAAAJAAQAAQAJAAQAAAAJAAUAAQAJAAUAAAAKAAAAAQAKAAAAAAAKAAEAAQAKAAEAAAAKAAIAAQAKAAIAAAAKAAMAAQAKAAMAAAAKAAQAAQAKAAQAAAAKAAUAAQAKAAUAAAALAAAAAQALAAAAAAALAAEAAQALAAEAAAALAAIAAQALAAIAAAALAAMAAQALAAMAAAALAAQAAQALAAQAAAALAAUAAQALAAUAAAAMAAAAAQAMAAAAAAAMAAEAAQAMAAEAAAAMAAIAAQAMAAIAAAAMAAMAAQAMAAMAAAAMAAQAAQAMAAQAAAAMAAUAAQAMAAUAAAANAAAAAQANAAAAAAANAAEAAQANAAEAAAANAAIAAQANAAIAAAANAAMAAQANAAMAAAANAAQAAQANAAQAAAANAAUAAQANAAUAAAAOAAAAAQAOAAAAAAAOAAEAAQAOAAEAAAAOAAIAAQAOAAIAAAAOAAMAAQAOAAMAAAAOAAQAAQAOAAQAAAAOAAUAAQAOAAUAAAAPAAAAAQAPAAAAAAAPAAEAAQAPAAEAAAAPAAIAAQAPAAIAAAAPAAMAAQAPAAMAAAAPAAQAAQAPAAQAAAAPAAUAAQAPAAUAAAAQAAAAAQAQAAAAAAAQAAEAAQAQAAEAAAAQAAIAAQAQAAIAAAAQAAMAAQAQAAMAAAAQAAQAAQAQAAQAAAAQAAUAAQAQAAUAAAARAAAAAQARAAAAAAARAAEAAQARAAEAAAARAAIAAQARAAIAAAARAAMAAQARAAMAAAARAAQAAQARAAQAAAARAAUAAQARAAUAAAASAAAAAQASAAAAAAASAAEAAQASAAEAAAASAAIAAQASAAIAAAASAAMAAQASAAMAAAASAAQAAQASAAQAAAASAAUAAQASAAUAAAATAAAAAQATAAAAAAATAAEAAQATAAEAAAATAAIAAQATAAIAAAATAAMAAQATAAMAAAATAAQAAQATAAQAAAATAAUAAQATAAUAAAAUAAAAAQAUAAAAAAAUAAEAAQAUAAEAAAAUAAIAAQAUAAIAAAAUAAMAAQAUAAMAAAAUAAQAAQAUAAQAAAAUAAUAAQAUAAUAAAAVAAAAAQAVAAAAAAAVAAEAAQAVAAEAAAAVAAIAAQAVAAIAAAAVAAMAAQAVAAMAAAAVAAQAAQAVAAQAAAAVAAUAAQAVAAUAAAAWAAAAAQAWAAAAAAAWAAEAAQAWAAEAAAAWAAIAAQAWAAIAAAAWAAMAAQAWAAMAAAAWAAQAAQAWAAQAAAAWAAUAAQAWAAUAAAAXAAAAAQAXAAAAAAAXAAEAAQAXAAEAAAAXAAIAAQAXAAIAAAAXAAMAAQAXAAMAAAAXAAQAAQAXAAQAAAAXAAUAAQAXAAUAAAAYAAAAAQAYAAAAAAAYAAEAAQAYAAEAAAAYAAIAAQAYAAIAAAAYAAMAAQAYAAMAAAAYAAQAAQAYAAQAAAAYAAUAAQAYAAUAAAAZAAAAAQAZAAAAAAAZAAEAAQAZAAEAAAAZAAIAAQAZAAIAAAAZAAMAAQAZAAMAAAAZAAQAAQAZAAQAAAAZAAUAAQAZAAUAAAAaAAAAAQAaAAAAAAAaAAEAAQAaAAEAAAAaAAIAAQAaAAIAAAAaAAMAAQAaAAMAAAAaAAQAAQAaAAQAAAAaAAUAAQAaAAUAAAAbAAAAAQAbAAAAAAAbAAEAAQAbAAEAAAAbAAIAAQAbAAIAAAAbAAMAAQAbAAMAAAAbAAQAAQAbAAQAAAAbAAUAAQAbAAUAAAAAAAAAAQAAAAAAAAAcAAAAAQAcAAAAAAAcAAEAAQAcAAEAAAAcAAIAAQAcAAIAAAAcAAMAAQAcAAMAAAAcAAQAAQAcAAQAAAAcAAUAAQAcAAUAAAA=")
+tile_set = SubResource("TileSet_k7orx")
 
 [node name="Sprite2D" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(64.0863, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_nh0wt")
+texture = ExtResource("10_ykbpx")
 
 [node name="Sprite2D2" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(179.983, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_nh0wt")
+texture = ExtResource("10_ykbpx")
 
 [node name="Sprite2D3" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(296.319, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_nh0wt")
+texture = ExtResource("10_ykbpx")
 
 [node name="Sprite2D4" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(412.234, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_nh0wt")
+texture = ExtResource("10_ykbpx")
 
-<<<<<<< HEAD:cenas/Sao_Judas.tscn
-[node name="CharacterBody2D" parent="." instance=ExtResource("11_m0u57")]
-=======
-[node name="pendrive" parent="." instance=ExtResource("19_axrr5")]
-position = Vector2(57.3249, 74.1852)
-itemRes = ExtResource("11_mljkb")
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("8_r0eml")]
->>>>>>> coletaveis_inventario:cenas/metro.tscn
+[node name="CharacterBody2D" parent="." instance=ExtResource("11_yby2i")]
 position = Vector2(118, 0)
 scale = Vector2(0.962898, 0.98269)
-collision_layer = 3
 
 [node name="colisões" type="StaticBody2D" parent="."]
 
 [node name="limite da tela" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(-10, 48)
-shape = SubResource("RectangleShape2D_u1ch8")
+shape = SubResource("RectangleShape2D_gtgcq")
 
 [node name="limite da tela2" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(224, 106)
-shape = SubResource("RectangleShape2D_i4j0q")
+shape = SubResource("RectangleShape2D_kloim")
 
 [node name="limite da tela3" type="CollisionShape2D" parent="colisões"]
 position = Vector2(470.823, 48.0518)
-shape = SubResource("RectangleShape2D_diiwb")
+shape = SubResource("RectangleShape2D_1nphr")
 
 [node name="limite da tela4" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(224, -10)
-shape = SubResource("RectangleShape2D_wxgb4")
+shape = SubResource("RectangleShape2D_a6twm")
 
 [node name="parede" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(224, 28)
-shape = SubResource("RectangleShape2D_2wo5t")
+shape = SubResource("RectangleShape2D_daamf")
 metadata/_edit_lock_ = true
 
 [node name="negocio do canto" type="CollisionShape2D" parent="colisões"]
 position = Vector2(1.5, 36)
-shape = SubResource("RectangleShape2D_shlko")
+shape = SubResource("RectangleShape2D_27ns6")
 
-[node name="npcrandom" parent="." instance=ExtResource("12_dqo12")]
-position = Vector2(183.777, 68.7056)
+[node name="npcrandom" parent="." instance=ExtResource("12_18bgt")]
+position = Vector2(371.769, 74.1852)
 
 [node name="tvzinha" type="AnimatedSprite2D" parent="."]
 position = Vector2(111.699, 16.0173)
-sprite_frames = SubResource("SpriteFrames_fknab")
+sprite_frames = SubResource("SpriteFrames_7rep4")
 
 [node name="tvzinha2" type="AnimatedSprite2D" parent="."]
 position = Vector2(343.95, 16.0173)
-sprite_frames = SubResource("SpriteFrames_fknab")
+sprite_frames = SubResource("SpriteFrames_7rep4")
 
 [node name="fade_in" type="Timer" parent="."]
 wait_time = 10.0
 
 [node name="fade_out" type="Timer" parent="fade_in"]
-wait_time = 3.0
-one_shot = true
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-script = ExtResource("14_r1428")
+script = ExtResource("14_6pkug")
 
-[node name="inventario" parent="CanvasLayer" instance=ExtResource("15_uxs0o")]
+[node name="inventario" parent="CanvasLayer" instance=ExtResource("15_q5q5x")]
 visible = false
 offset_left = 120.0
 offset_right = -109.0
@@ -466,7 +421,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("16_n17l3")
+script = ExtResource("16_3v4el")
 
 [node name="clock_timer" type="Timer" parent="HUB/control"]
 
@@ -475,10 +430,6 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 8.0
-offset_top = -8.0
-offset_right = 8.0
-offset_bottom = -8.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 0
@@ -493,7 +444,7 @@ size_flags_vertical = 0
 [node name="contadormoeda" type="Label" parent="HUB/control/container/moedacontainer"]
 layout_mode = 2
 theme_override_constants/outline_size = 4
-theme_override_fonts/font = ExtResource("17_56raq")
+theme_override_fonts/font = ExtResource("17_wk6wh")
 theme_override_font_sizes/font_size = 8
 text = "000"
 
@@ -501,7 +452,7 @@ text = "000"
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
-texture = ExtResource("18_ynbf3")
+texture = ExtResource("18_1sic2")
 
 [node name="timercontainer" type="HBoxContainer" parent="HUB/control/container"]
 layout_mode = 2
@@ -511,7 +462,7 @@ size_flags_vertical = 0
 [node name="contadortime" type="Label" parent="HUB/control/container/timercontainer"]
 layout_mode = 2
 theme_override_constants/outline_size = 4
-theme_override_fonts/font = ExtResource("17_56raq")
+theme_override_fonts/font = ExtResource("17_wk6wh")
 theme_override_font_sizes/font_size = 8
 text = "00:00"
 
@@ -524,36 +475,27 @@ size_flags_vertical = 8
 layout_mode = 2
 size_flags_horizontal = 8
 theme_override_constants/outline_size = 3
-theme_override_fonts/font = ExtResource("17_56raq")
+theme_override_fonts/font = ExtResource("17_wk6wh")
 theme_override_font_sizes/font_size = 8
 text = "Próxima Estação: Saúde"
 
 [node name="moeda" type="Node2D" parent="."]
 
-[node name="moeda" parent="moeda" instance=ExtResource("19_cjkb4")]
+[node name="moeda" parent="moeda" instance=ExtResource("19_eagi7")]
 position = Vector2(222.556, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-[node name="moeda2" parent="moeda" instance=ExtResource("19_cjkb4")]
+[node name="moeda2" parent="moeda" instance=ExtResource("19_eagi7")]
 position = Vector2(148.37, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-[node name="moeda3" parent="moeda" instance=ExtResource("19_cjkb4")]
+[node name="moeda3" parent="moeda" instance=ExtResource("19_eagi7")]
 position = Vector2(259.648, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-[node name="moeda4" parent="moeda" instance=ExtResource("19_cjkb4")]
+[node name="moeda4" parent="moeda" instance=ExtResource("19_eagi7")]
 position = Vector2(91.0455, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-<<<<<<< HEAD:cenas/Sao_Judas.tscn
 [connection signal="timeout" from="fade_in" to="." method="_on_tempo_timeout"]
-[connection signal="timeout" from="fade_in/fade_out" to="." method="_on_fade_out_timeout"]
-=======
-[node name="coletavel" parent="." instance=ExtResource("20_j7mno")]
-position = Vector2(87.6734, 94.4176)
-itemRes = ExtResource("22_kjonx")
-
-[connection signal="timeout" from="tempo" to="." method="_on_tempo_timeout"]
->>>>>>> coletaveis_inventario:cenas/metro.tscn
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]
