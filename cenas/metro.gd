@@ -11,6 +11,7 @@ func _ready() -> void:
 	$tvzinha2.play()
 	fade_in.start()
 	
+	
 
 func _process(delta: float) -> void:
 	pass

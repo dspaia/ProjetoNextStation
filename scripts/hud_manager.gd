@@ -3,11 +3,16 @@ extends Control
 @onready var contadormoeda = $container/moedacontainer/contadormoeda as Label
 @onready var contadortime = $container/timercontainer/contadortime as Label
 @onready var clock_timer = $clock_timer as Timer
+@onready var fade_in := $fade_in as Timer
+@onready var fade_out := $fade_in/fade_out as Timer
+@onready var transicao := $ColorRect
+@onready var animacao := $"transição/ColorRect/animaçao"
+@onready var mudar_cena := $fade_in/mudar_cena as Timer
 
 var minutos = 0
 var segundos = 0
 @export_range(0, 23) var default_minutos := 0  # Tempo inicial em minutos
-@export_range(0, 59) var default_segundos := 5  # Tempo inicial em segundos
+@export_range(0, 59) var default_segundos := 10  # Tempo inicial em segundos
 @export var scene_to_load: String = "res://cenas/conceicao"  # Caminho da nova cena
 
 # Chamado quando o nó entra na árvore da cena pela primeira vez
@@ -46,6 +51,7 @@ func reset_clock_timer():
 # Função para encerrar o jogo
 func end_game():
 	if segundos == 0 and minutos == 0:
+		
 		# Muda para a nova cena
 		print("Mudando para a nova cena!")
-		get_tree().change_scene_to_file("res://addons/scenes/end_credits/end_credits.tscn")  # Altera a cena para a especificada
+		get_tree().change_scene_to_file("res://cenas/Conceicao.tscn") # Altera a cena para a especificada
