@@ -54,4 +54,5 @@ func end_game():
 		
 		# Muda para a nova cena
 		print("Mudando para a nova cena!")
+		print("Próxima estação: São Judas")
 		get_tree().change_scene_to_file("res://cenas/Sao_Judas.tscn")  # Altera a cena para a especificada

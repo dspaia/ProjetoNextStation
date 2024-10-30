@@ -20,7 +20,7 @@ func _process(delta: float) -> void:
 func _on_tempo_timeout() -> void:
 	animacao.play("fade_in")
 	fade_out.start()
-	print("Próxima estação: Conceição")
+	
 
 
 
