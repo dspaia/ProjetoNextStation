@@ -1,5 +1,8 @@
 extends CharacterBody2D
+
 @onready var player_animation = $player_animation
+
+@export var inventario: Inventario
 
 const SPEED = 170.0
 const JUMP_VELOCITY = -400.0
@@ -37,4 +40,9 @@ func _physics_process(delta: float) -> void:
 			last_direction=Vector2.DOWN
 
 	
-	
+
+
+func _on_hurtbox_area_entered(area) -> void:
+	if area.has_method("coletar"):
+		area.coletar(inventario)
+		print("coletado")

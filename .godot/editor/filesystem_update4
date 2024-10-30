@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 res://cenas/Jabaquara.tscn
 res://inventario/inventarioJogador.tres
 res://cenas/transição.gdshader
@@ -21,3 +22,20 @@ res://cenas/santa_cruz.gd
 res://cenas/saude.gd
 res://cenas/Praca_da_Arvore.tscn
 res://cenas/Santa_Cruz.tscn
+=======
+res://cenas/inventario.tscn
+res://inventario/inventarioJogador.tres
+res://inventario/inventario.gd
+res://cenas/sla.tscn
+res://cenas/pendrive.tscn
+res://cenas/metro.tscn
+res://scripts/coletavel.gd
+res://cenas/milesimoteste.tscn
+res://cenas/npcteste.tscn
+res://cenas/interação_area.tscn
+res://cenas/moeda.tscn
+res://cenas/slot.tscn
+res://scripts/milesimoteste.gd
+res://cenas/fones.tscn
+res://scripts/inventario.gd
+>>>>>>> coletaveis_inventario

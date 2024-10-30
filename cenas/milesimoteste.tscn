@@ -1,7 +1,8 @@
-[gd_scene load_steps=69 format=3 uid="uid://bo4n7em8jy6w8"]
+[gd_scene load_steps=71 format=3 uid="uid://bo4n7em8jy6w8"]
 
 [ext_resource type="Script" path="res://scripts/milesimoteste.gd" id="1_cvp7j"]
 [ext_resource type="Texture2D" uid="uid://bn3v682lhni1q" path="res://sprite aleatorio.png" id="2_0f7uw"]
+[ext_resource type="Resource" uid="uid://286yr5bywa6n" path="res://inventario/inventarioJogador.tres" id="2_5uulf"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_icg8r"]
 atlas = ExtResource("2_0f7uw")
@@ -497,8 +498,13 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_k11yl"]
 size = Vector2(12, 4.25)
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6qp66"]
+radius = 4.5
+height = 22.0
+
 [node name="CharacterBody2D" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_cvp7j")
+inventario = ExtResource("2_5uulf")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(75, 56)
@@ -519,3 +525,12 @@ limit_bottom = 227
 drag_horizontal_enabled = true
 drag_left_margin = 0.5
 drag_right_margin = 0.5
+
+[node name="hurtbox" type="Area2D" parent="."]
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hurtbox"]
+position = Vector2(75, 55)
+shape = SubResource("CapsuleShape2D_6qp66")
+
+[connection signal="area_entered" from="hurtbox" to="." method="_on_hurtbox_area_entered"]

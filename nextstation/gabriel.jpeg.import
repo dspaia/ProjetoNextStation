@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://5v2oso3vgrsu"
+=======
+uid="uid://ddmdpu16ltwe7"
+>>>>>>> coletaveis_inventario
 path="res://.godot/imported/gabriel.jpeg-296471bc5906734750ccbced98b66e71.ctex"
 metadata={
 "vram_texture": false

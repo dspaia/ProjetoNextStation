@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://cwe1b5fix85kl"
+=======
+uid="uid://dc8tmahxfcjy"
+>>>>>>> coletaveis_inventario
 path="res://.godot/imported/1-tela.jpg-924b448207104ffecc396a3b98f158b8.ctex"
 metadata={
 "vram_texture": false

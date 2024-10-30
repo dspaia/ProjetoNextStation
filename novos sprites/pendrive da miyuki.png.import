@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://0qaw8drdftcl"
-=======
-uid="uid://lm2rem82tvfl"
->>>>>>> coletaveis_inventario
-path="res://.godot/imported/wasd.png-064028008242779dc54fe2b0d0ae3b8e.ctex"
+uid="uid://cji77847c5sa1"
+path="res://.godot/imported/pendrive da miyuki.png-500d139064a3f844956675eee2290f6c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nextstation/wasd.png"
-dest_files=["res://.godot/imported/wasd.png-064028008242779dc54fe2b0d0ae3b8e.ctex"]
+source_file="res://novos sprites/pendrive da miyuki.png"
+dest_files=["res://.godot/imported/pendrive da miyuki.png-500d139064a3f844956675eee2290f6c.ctex"]
 
 [params]
 

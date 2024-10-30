@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 res://scripts
 res://cenas
 <<<<<<< HEAD
+=======
+res://cenas
+res://scripts
+res://inventario/itens
+res://audios
+res://novos sprites
+>>>>>>> coletaveis_inventario
 res://
 res://audios
 res://novos sprites

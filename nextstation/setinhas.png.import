@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://7j7gogw8b2an"
+=======
+uid="uid://ddh8pj0jhmyhq"
+>>>>>>> coletaveis_inventario
 path="res://.godot/imported/setinhas.png-cfd4774158fb3df9ccf5dc747931ab23.ctex"
 metadata={
 "vram_texture": false

@@ -2,20 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-<<<<<<< HEAD
-uid="uid://0qaw8drdftcl"
-=======
-uid="uid://lm2rem82tvfl"
->>>>>>> coletaveis_inventario
-path="res://.godot/imported/wasd.png-064028008242779dc54fe2b0d0ae3b8e.ctex"
+uid="uid://b485qjfxcv2ip"
+path="res://.godot/imported/FOXSPRITESHEET.png-89a4098b5dbb8b6521a8ac913458dcb0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://nextstation/wasd.png"
-dest_files=["res://.godot/imported/wasd.png-064028008242779dc54fe2b0d0ae3b8e.ctex"]
+source_file="res://scripts/FOXSPRITESHEET.png"
+dest_files=["res://.godot/imported/FOXSPRITESHEET.png-89a4098b5dbb8b6521a8ac913458dcb0.ctex"]
 
 [params]
 

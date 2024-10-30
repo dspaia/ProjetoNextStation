@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://cmolbkdjhn6hh"
+=======
+uid="uid://cobp1fvewmiy4"
+>>>>>>> coletaveis_inventario
 path="res://.godot/imported/manual-wallpaper.jpg-106f954c23691c68f629d46eedba283c.ctex"
 metadata={
 "vram_texture": false
