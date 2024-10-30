@@ -2,7 +2,15 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< Updated upstream
 uid="uid://l6rtj7rjfgmo"
+=======
+<<<<<<< Updated upstream
+uid="uid://dgcsot835t7d5"
+=======
+uid="uid://ck7ekn2s7fvg4"
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 path="res://.godot/imported/espaco.png-814dc27cff21504eb677aa3ed6e85392.ctex"
 metadata={
 "vram_texture": false

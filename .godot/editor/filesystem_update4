@@ -1,6 +1,7 @@
 res://cenas/Jabaquara.tscn
 res://inventario/inventarioJogador.tres
 res://tema_botaol.tres
+<<<<<<< Updated upstream
 res://cenas/milesimoteste.tscn
 res://cenas/npcteste.tscn
 res://cenas/interação_area.tscn
@@ -9,9 +10,31 @@ res://cenas/inventario.tscn
 res://cenas/sla.tscn
 res://cenas/pendrive.tscn
 res://cenas/fones.tscn
+=======
+<<<<<<< Updated upstream
+res://cenas/metro.gd
+res://cenas/tela_inicial.tscn
+res://addons/scenes/end_credits/end_credits.tscn
+res://scripts/hud_manager.gd
+res://cenas/transição.gdshader
+res://cenas/transição.tscn
+res://cenas/Jabaquara.tscn
+res://cenas/conceicao.gd
+res://cenas/hud_conceicao.gd
+res://cenas/hud_saojudas.gd
+res://cenas/sao_judas.gd
+>>>>>>> Stashed changes
 res://cenas/Conceicao.tscn
 res://cenas/tela_inicial.tscn
 res://cenas/Santa_Cruz.tscn
 res://cenas/Praca_da_Arvore.tscn
 res://cenas/Saude.tscn
 res://cenas/Sao_Judas.tscn
+<<<<<<< Updated upstream
+=======
+res://scripts/tela_inicial.gd
+=======
+res://cenas/tela_inicial.tscn
+res://cenas/transição.tscn
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
