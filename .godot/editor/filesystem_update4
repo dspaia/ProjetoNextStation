@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 res://inventario/inventarioJogador.tres
 res://cenas/transição.tscn
 res://cenas/transição.gdshader
@@ -10,3 +11,14 @@ res://cenas/moeda.tscn
 res://cenas/tela_inicial.tscn
 res://cenas/conceicao.tscn
 res://tema_botaol.tres
+=======
+res://cenas/metro.tscn
+res://inventario/inventarioJogador.tres
+res://cenas/interação_area.tscn
+res://scripts/gerente_interacao.gd
+res://scripts/hud_manager.gd
+res://addons/scenes/credits/credits.tscn
+res://addons/scenes/end_credits/end_credits.tscn
+res://addons/ATTRIBUTION.md
+res://cenas/conceicao.tscn
+>>>>>>> cronometro

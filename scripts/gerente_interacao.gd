@@ -9,7 +9,7 @@ var area_ativa_interação = []
 var pode_interagir = true
 
 
-func registra_area(area: InteraçãoArea):
+func registra_area(area = InteraçãoArea):
 	area_ativa_interação.push_back(area)
 	
 func area_nao_registrada(area = InteraçãoArea):
