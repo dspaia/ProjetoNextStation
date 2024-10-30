@@ -10,6 +10,8 @@ func _ready() -> void:
 	$tvzinha.play()
 	$tvzinha2.play()
 	fade_in.start()
+	animacao.play("fade_out")
+
 	
 	
 
@@ -20,9 +22,7 @@ func _process(delta: float) -> void:
 func _on_tempo_timeout() -> void:
 	animacao.play("fade_in")
 	fade_out.start()
-	print("Próxima estação: final")
-
-
-
-func _on_fade_out_timeout() -> void:
-	animacao.play("fade_out")
+	print("Próxima estação: Final")
+	
+func _on_fade_in_timeout() -> void:
+	animacao.play("fade_in")

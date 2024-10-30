@@ -1,27 +1,27 @@
-[gd_scene load_steps=34 format=4 uid="uid://f5y8bwwf03ac"]
+[gd_scene load_steps=34 format=4 uid="uid://ctdgfvkpn5lar"]
 
-[ext_resource type="Script" path="res://cenas/metro.gd" id="1_jdqms"]
-[ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_gitwk"]
-[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://fundo cidade/1.png" id="3_6lxpm"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_ow0c0"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_ccdvn"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_ybf4q"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_7nrub"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_rsr8c"]
-[ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_kkcft"]
-[ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_b2i78"]
-[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_a3rvt"]
-[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="12_ujh4j"]
-[ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_fgubp"]
-[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_sn4oj"]
-[ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_l567f"]
-[ext_resource type="Script" path="res://scripts/hud_manager.gd" id="16_grx4u"]
-[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_dctn0"]
-[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_70ksh"]
-[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_smlqw"]
+[ext_resource type="Script" path="res://cenas/santa_cruz.gd" id="1_h3xcf"]
+[ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_voyym"]
+[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://fundo cidade/1.png" id="3_8uvyj"]
+[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_q8uws"]
+[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_4jwdp"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_5gh5b"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_arcf0"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_rxuqk"]
+[ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_et81r"]
+[ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_f6sp2"]
+[ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_4j88h"]
+[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="12_i40jx"]
+[ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_eurof"]
+[ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_fu30b"]
+[ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_t6kws"]
+[ext_resource type="Script" path="res://scripts/hud_santacruz.gd" id="16_biqar"]
+[ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_eky8r"]
+[ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_vs3iu"]
+[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_sd4yo"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_32uci"]
-texture = ExtResource("9_kkcft")
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utahu"]
+texture = ExtResource("9_et81r")
 0:0/0 = 0
 1:0/0 = 0
 2:0/0 = 0
@@ -197,48 +197,48 @@ texture = ExtResource("9_kkcft")
 3:2/0 = 0
 3:1/0 = 0
 
-[sub_resource type="TileSet" id="TileSet_gwbqk"]
-sources/1 = SubResource("TileSetAtlasSource_32uci")
+[sub_resource type="TileSet" id="TileSet_k7orx"]
+sources/1 = SubResource("TileSetAtlasSource_utahu")
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_u1ch8"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gtgcq"]
 size = Vector2(20, 96)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_i4j0q"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kloim"]
 size = Vector2(488, 20)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_diiwb"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1nphr"]
 size = Vector2(20, 96)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_wxgb4"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a6twm"]
 size = Vector2(488, 20)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_2wo5t"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_daamf"]
 size = Vector2(448, 56)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_shlko"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_27ns6"]
 size = Vector2(3, 72)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_k76nm"]
-atlas = ExtResource("13_fgubp")
+atlas = ExtResource("13_eurof")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lq0sb"]
-atlas = ExtResource("13_fgubp")
+atlas = ExtResource("13_eurof")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_00bcd"]
-atlas = ExtResource("13_fgubp")
+atlas = ExtResource("13_eurof")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yvtmq"]
-atlas = ExtResource("13_fgubp")
+atlas = ExtResource("13_eurof")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_usk5y"]
-atlas = ExtResource("13_fgubp")
+atlas = ExtResource("13_eurof")
 region = Rect2(128, 0, 32, 32)
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_fknab"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_7rep4"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -263,9 +263,9 @@ animations = [{
 
 [node name="metro" type="Node2D"]
 scale = Vector2(2.37244, 2.37244)
-script = ExtResource("1_jdqms")
+script = ExtResource("1_h3xcf")
 
-[node name="transição" parent="." instance=ExtResource("2_gitwk")]
+[node name="transição" parent="." instance=ExtResource("2_voyym")]
 
 [node name="ParallaxBackground" type="Node2D" parent="."]
 
@@ -277,7 +277,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("3_6lxpm")
+texture = ExtResource("3_8uvyj")
 
 [node name="ParallaxLayer3" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -287,7 +287,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("4_ow0c0")
+texture = ExtResource("4_q8uws")
 
 [node name="ParallaxLayer4" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -297,7 +297,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("5_ccdvn")
+texture = ExtResource("5_4jwdp")
 
 [node name="ParallaxLayer2" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -307,7 +307,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("6_ybf4q")
+texture = ExtResource("6_5gh5b")
 
 [node name="ParallaxLayer5" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -317,7 +317,7 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("7_7nrub")
+texture = ExtResource("7_arcf0")
 
 [node name="ParallaxLayer6" type="Parallax2D" parent="ParallaxBackground"]
 repeat_size = Vector2(64, 0)
@@ -327,33 +327,33 @@ ignore_camera_scroll = true
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer6"]
 position = Vector2(226.771, 33.7206)
-texture = ExtResource("8_rsr8c")
+texture = ExtResource("8_rxuqk")
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
 tile_map_data = PackedByteArray("AAAAAAEAAQAAAAEAAAAAAAIAAQAAAAIAAAAAAAMAAQAAAAMAAAAAAAQAAQAAAAQAAAAAAAUAAQAAAAUAAAABAAAAAQABAAAAAAABAAEAAQABAAEAAAABAAIAAQABAAIAAAABAAMAAQABAAMAAAABAAQAAQABAAQAAAABAAUAAQABAAUAAAACAAAAAQACAAAAAAACAAEAAQACAAEAAAACAAIAAQACAAIAAAACAAMAAQACAAMAAAACAAQAAQACAAQAAAACAAUAAQACAAUAAAADAAAAAQADAAAAAAADAAEAAQADAAEAAAADAAIAAQADAAIAAAADAAMAAQADAAMAAAADAAQAAQADAAQAAAADAAUAAQADAAUAAAAEAAAAAQAEAAAAAAAEAAEAAQAEAAEAAAAEAAIAAQAEAAIAAAAEAAMAAQAEAAMAAAAEAAQAAQAEAAQAAAAEAAUAAQAEAAUAAAAFAAAAAQAFAAAAAAAFAAEAAQAFAAEAAAAFAAIAAQAFAAIAAAAFAAMAAQAFAAMAAAAFAAQAAQAFAAQAAAAFAAUAAQAFAAUAAAAGAAAAAQAGAAAAAAAGAAEAAQAGAAEAAAAGAAIAAQAGAAIAAAAGAAMAAQAGAAMAAAAGAAQAAQAGAAQAAAAGAAUAAQAGAAUAAAAHAAAAAQAHAAAAAAAHAAEAAQAHAAEAAAAHAAIAAQAHAAIAAAAHAAMAAQAHAAMAAAAHAAQAAQAHAAQAAAAHAAUAAQAHAAUAAAAIAAAAAQAIAAAAAAAIAAEAAQAIAAEAAAAIAAIAAQAIAAIAAAAIAAMAAQAIAAMAAAAIAAQAAQAIAAQAAAAIAAUAAQAIAAUAAAAJAAAAAQAJAAAAAAAJAAEAAQAJAAEAAAAJAAIAAQAJAAIAAAAJAAMAAQAJAAMAAAAJAAQAAQAJAAQAAAAJAAUAAQAJAAUAAAAKAAAAAQAKAAAAAAAKAAEAAQAKAAEAAAAKAAIAAQAKAAIAAAAKAAMAAQAKAAMAAAAKAAQAAQAKAAQAAAAKAAUAAQAKAAUAAAALAAAAAQALAAAAAAALAAEAAQALAAEAAAALAAIAAQALAAIAAAALAAMAAQALAAMAAAALAAQAAQALAAQAAAALAAUAAQALAAUAAAAMAAAAAQAMAAAAAAAMAAEAAQAMAAEAAAAMAAIAAQAMAAIAAAAMAAMAAQAMAAMAAAAMAAQAAQAMAAQAAAAMAAUAAQAMAAUAAAANAAAAAQANAAAAAAANAAEAAQANAAEAAAANAAIAAQANAAIAAAANAAMAAQANAAMAAAANAAQAAQANAAQAAAANAAUAAQANAAUAAAAOAAAAAQAOAAAAAAAOAAEAAQAOAAEAAAAOAAIAAQAOAAIAAAAOAAMAAQAOAAMAAAAOAAQAAQAOAAQAAAAOAAUAAQAOAAUAAAAPAAAAAQAPAAAAAAAPAAEAAQAPAAEAAAAPAAIAAQAPAAIAAAAPAAMAAQAPAAMAAAAPAAQAAQAPAAQAAAAPAAUAAQAPAAUAAAAQAAAAAQAQAAAAAAAQAAEAAQAQAAEAAAAQAAIAAQAQAAIAAAAQAAMAAQAQAAMAAAAQAAQAAQAQAAQAAAAQAAUAAQAQAAUAAAARAAAAAQARAAAAAAARAAEAAQARAAEAAAARAAIAAQARAAIAAAARAAMAAQARAAMAAAARAAQAAQARAAQAAAARAAUAAQARAAUAAAASAAAAAQASAAAAAAASAAEAAQASAAEAAAASAAIAAQASAAIAAAASAAMAAQASAAMAAAASAAQAAQASAAQAAAASAAUAAQASAAUAAAATAAAAAQATAAAAAAATAAEAAQATAAEAAAATAAIAAQATAAIAAAATAAMAAQATAAMAAAATAAQAAQATAAQAAAATAAUAAQATAAUAAAAUAAAAAQAUAAAAAAAUAAEAAQAUAAEAAAAUAAIAAQAUAAIAAAAUAAMAAQAUAAMAAAAUAAQAAQAUAAQAAAAUAAUAAQAUAAUAAAAVAAAAAQAVAAAAAAAVAAEAAQAVAAEAAAAVAAIAAQAVAAIAAAAVAAMAAQAVAAMAAAAVAAQAAQAVAAQAAAAVAAUAAQAVAAUAAAAWAAAAAQAWAAAAAAAWAAEAAQAWAAEAAAAWAAIAAQAWAAIAAAAWAAMAAQAWAAMAAAAWAAQAAQAWAAQAAAAWAAUAAQAWAAUAAAAXAAAAAQAXAAAAAAAXAAEAAQAXAAEAAAAXAAIAAQAXAAIAAAAXAAMAAQAXAAMAAAAXAAQAAQAXAAQAAAAXAAUAAQAXAAUAAAAYAAAAAQAYAAAAAAAYAAEAAQAYAAEAAAAYAAIAAQAYAAIAAAAYAAMAAQAYAAMAAAAYAAQAAQAYAAQAAAAYAAUAAQAYAAUAAAAZAAAAAQAZAAAAAAAZAAEAAQAZAAEAAAAZAAIAAQAZAAIAAAAZAAMAAQAZAAMAAAAZAAQAAQAZAAQAAAAZAAUAAQAZAAUAAAAaAAAAAQAaAAAAAAAaAAEAAQAaAAEAAAAaAAIAAQAaAAIAAAAaAAMAAQAaAAMAAAAaAAQAAQAaAAQAAAAaAAUAAQAaAAUAAAAbAAAAAQAbAAAAAAAbAAEAAQAbAAEAAAAbAAIAAQAbAAIAAAAbAAMAAQAbAAMAAAAbAAQAAQAbAAQAAAAbAAUAAQAbAAUAAAAAAAAAAQAAAAAAAAAcAAAAAQAcAAAAAAAcAAEAAQAcAAEAAAAcAAIAAQAcAAIAAAAcAAMAAQAcAAMAAAAcAAQAAQAcAAQAAAAcAAUAAQAcAAUAAAA=")
-tile_set = SubResource("TileSet_gwbqk")
+tile_set = SubResource("TileSet_k7orx")
 
 [node name="Sprite2D" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(64.0863, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_b2i78")
+texture = ExtResource("10_f6sp2")
 
 [node name="Sprite2D2" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(179.983, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_b2i78")
+texture = ExtResource("10_f6sp2")
 
 [node name="Sprite2D3" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(296.319, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_b2i78")
+texture = ExtResource("10_f6sp2")
 
 [node name="Sprite2D4" type="Sprite2D" parent="TileMapLayer"]
 position = Vector2(412.234, 32.0345)
 scale = Vector2(1.01371, 1)
-texture = ExtResource("10_b2i78")
+texture = ExtResource("10_f6sp2")
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("11_a3rvt")]
+[node name="CharacterBody2D" parent="." instance=ExtResource("11_4j88h")]
 position = Vector2(118, 0)
 scale = Vector2(0.962898, 0.98269)
 
@@ -362,42 +362,42 @@ scale = Vector2(0.962898, 0.98269)
 [node name="limite da tela" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(-10, 48)
-shape = SubResource("RectangleShape2D_u1ch8")
+shape = SubResource("RectangleShape2D_gtgcq")
 
 [node name="limite da tela2" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(224, 106)
-shape = SubResource("RectangleShape2D_i4j0q")
+shape = SubResource("RectangleShape2D_kloim")
 
 [node name="limite da tela3" type="CollisionShape2D" parent="colisões"]
 position = Vector2(470.823, 48.0518)
-shape = SubResource("RectangleShape2D_diiwb")
+shape = SubResource("RectangleShape2D_1nphr")
 
 [node name="limite da tela4" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(224, -10)
-shape = SubResource("RectangleShape2D_wxgb4")
+shape = SubResource("RectangleShape2D_a6twm")
 
 [node name="parede" type="CollisionShape2D" parent="colisões"]
 visible = false
 position = Vector2(224, 28)
-shape = SubResource("RectangleShape2D_2wo5t")
+shape = SubResource("RectangleShape2D_daamf")
 metadata/_edit_lock_ = true
 
 [node name="negocio do canto" type="CollisionShape2D" parent="colisões"]
 position = Vector2(1.5, 36)
-shape = SubResource("RectangleShape2D_shlko")
+shape = SubResource("RectangleShape2D_27ns6")
 
-[node name="npcrandom" parent="." instance=ExtResource("12_ujh4j")]
+[node name="npcrandom" parent="." instance=ExtResource("12_i40jx")]
 position = Vector2(371.769, 74.1852)
 
 [node name="tvzinha" type="AnimatedSprite2D" parent="."]
 position = Vector2(111.699, 16.0173)
-sprite_frames = SubResource("SpriteFrames_fknab")
+sprite_frames = SubResource("SpriteFrames_7rep4")
 
 [node name="tvzinha2" type="AnimatedSprite2D" parent="."]
 position = Vector2(343.95, 16.0173)
-sprite_frames = SubResource("SpriteFrames_fknab")
+sprite_frames = SubResource("SpriteFrames_7rep4")
 
 [node name="fade_in" type="Timer" parent="."]
 wait_time = 10.0
@@ -405,9 +405,9 @@ wait_time = 10.0
 [node name="fade_out" type="Timer" parent="fade_in"]
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
-script = ExtResource("14_sn4oj")
+script = ExtResource("14_fu30b")
 
-[node name="inventario" parent="CanvasLayer" instance=ExtResource("15_l567f")]
+[node name="inventario" parent="CanvasLayer" instance=ExtResource("15_t6kws")]
 visible = false
 offset_left = 120.0
 offset_right = -109.0
@@ -421,7 +421,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("16_grx4u")
+script = ExtResource("16_biqar")
 
 [node name="clock_timer" type="Timer" parent="HUB/control"]
 
@@ -444,7 +444,7 @@ size_flags_vertical = 0
 [node name="contadormoeda" type="Label" parent="HUB/control/container/moedacontainer"]
 layout_mode = 2
 theme_override_constants/outline_size = 4
-theme_override_fonts/font = ExtResource("17_dctn0")
+theme_override_fonts/font = ExtResource("17_eky8r")
 theme_override_font_sizes/font_size = 8
 text = "000"
 
@@ -452,7 +452,7 @@ text = "000"
 layout_mode = 2
 size_flags_horizontal = 8
 size_flags_vertical = 0
-texture = ExtResource("18_70ksh")
+texture = ExtResource("18_vs3iu")
 
 [node name="timercontainer" type="HBoxContainer" parent="HUB/control/container"]
 layout_mode = 2
@@ -462,7 +462,7 @@ size_flags_vertical = 0
 [node name="contadortime" type="Label" parent="HUB/control/container/timercontainer"]
 layout_mode = 2
 theme_override_constants/outline_size = 4
-theme_override_fonts/font = ExtResource("17_dctn0")
+theme_override_fonts/font = ExtResource("17_eky8r")
 theme_override_font_sizes/font_size = 8
 text = "00:00"
 
@@ -475,25 +475,25 @@ size_flags_vertical = 8
 layout_mode = 2
 size_flags_horizontal = 8
 theme_override_constants/outline_size = 3
-theme_override_fonts/font = ExtResource("17_dctn0")
+theme_override_fonts/font = ExtResource("17_eky8r")
 theme_override_font_sizes/font_size = 8
 text = "Próxima Estação: Conceição"
 
 [node name="moeda" type="Node2D" parent="."]
 
-[node name="moeda" parent="moeda" instance=ExtResource("19_smlqw")]
+[node name="moeda" parent="moeda" instance=ExtResource("19_sd4yo")]
 position = Vector2(222.556, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-[node name="moeda2" parent="moeda" instance=ExtResource("19_smlqw")]
+[node name="moeda2" parent="moeda" instance=ExtResource("19_sd4yo")]
 position = Vector2(148.37, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-[node name="moeda3" parent="moeda" instance=ExtResource("19_smlqw")]
+[node name="moeda3" parent="moeda" instance=ExtResource("19_sd4yo")]
 position = Vector2(259.648, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
-[node name="moeda4" parent="moeda" instance=ExtResource("19_smlqw")]
+[node name="moeda4" parent="moeda" instance=ExtResource("19_sd4yo")]
 position = Vector2(91.0455, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
