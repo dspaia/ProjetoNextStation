@@ -1,15 +1,16 @@
-[gd_scene load_steps=69 format=4 uid="uid://f5y8bwwf03ac"]
+[gd_scene load_steps=74 format=3 uid="uid://f5y8bwwf03ac"]
 
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="1_elsmw"]
 [ext_resource type="Script" path="res://cenas/metro.gd" id="1_r71eq"]
 [ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="2_plexf"]
 [ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="3_3xdjy"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://novos sprites/fundo cidade/nuvens (1).png" id="4_onufx"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://novos sprites/fundo cidade/4.png" id="5_6q64l"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://novos sprites/fundo cidade/5.png" id="6_pm0vx"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="4_onufx"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="5_6q64l"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="6_pm0vx"]
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="7_7b1mn"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="8_r0eml"]
 [ext_resource type="Texture2D" uid="uid://bux2ro7iv8ga4" path="res://novos sprites/sprite porta.png" id="9_apqb2"]
+[ext_resource type="Resource" uid="uid://7svv4eqxdcxc" path="res://inventario/itens/pendrive.tres" id="11_mljkb"]
 [ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="12_jy4l4"]
 [ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="13_eka37"]
 [ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="13_f31wc"]
@@ -18,6 +19,13 @@
 [ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="16_7xfcr"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="16_8ms38"]
 [ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="17_63xy3"]
+[ext_resource type="PackedScene" uid="uid://n2yukhlsyt6n" path="res://cenas/pendrive.tscn" id="19_axrr5"]
+[ext_resource type="PackedScene" uid="uid://c6bcg42cs0uvr" path="res://cenas/fones.tscn" id="20_j7mno"]
+[ext_resource type="Resource" uid="uid://xdmpnixbuq2y" path="res://inventario/itens/fones.tres" id="22_kjonx"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_a5dl5"]
+resource_name = "coletaveis"
+scenes/1/scene = ExtResource("19_axrr5")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uskl"]
 texture = ExtResource("7_7b1mn")
@@ -197,7 +205,9 @@ texture = ExtResource("7_7b1mn")
 3:1/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_gwbqk"]
+physics_layer_0/collision_layer = 1
 sources/1 = SubResource("TileSetAtlasSource_8uskl")
+sources/0 = SubResource("TileSetScenesCollectionSource_a5dl5")
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ntppk"]
 atlas = ExtResource("9_apqb2")
@@ -579,9 +589,10 @@ ignore_camera_scroll = true
 position = Vector2(226.771, 33.7206)
 texture = ExtResource("6_pm0vx")
 
-[node name="TileMapLayer" type="TileMapLayer" parent="."]
-tile_map_data = PackedByteArray("AAAAAAEAAQAAAAEAAAAAAAIAAQAAAAIAAAAAAAMAAQAAAAMAAAAAAAQAAQAAAAQAAAAAAAUAAQAAAAUAAAABAAAAAQABAAAAAAABAAEAAQABAAEAAAABAAIAAQABAAIAAAABAAMAAQABAAMAAAABAAQAAQABAAQAAAABAAUAAQABAAUAAAACAAAAAQACAAAAAAACAAEAAQACAAEAAAACAAIAAQACAAIAAAACAAMAAQACAAMAAAACAAQAAQACAAQAAAACAAUAAQACAAUAAAADAAAAAQADAAAAAAADAAEAAQADAAEAAAADAAIAAQADAAIAAAADAAMAAQADAAMAAAADAAQAAQADAAQAAAADAAUAAQADAAUAAAAEAAAAAQAEAAAAAAAEAAEAAQAEAAEAAAAEAAIAAQAEAAIAAAAEAAMAAQAEAAMAAAAEAAQAAQAEAAQAAAAEAAUAAQAEAAUAAAAFAAAAAQAFAAAAAAAFAAEAAQAFAAEAAAAFAAIAAQAFAAIAAAAFAAMAAQAFAAMAAAAFAAQAAQAFAAQAAAAFAAUAAQAFAAUAAAAGAAAAAQAGAAAAAAAGAAEAAQAGAAEAAAAGAAIAAQAGAAIAAAAGAAMAAQAGAAMAAAAGAAQAAQAGAAQAAAAGAAUAAQAGAAUAAAAHAAAAAQAHAAAAAAAHAAEAAQAHAAEAAAAHAAIAAQAHAAIAAAAHAAMAAQAHAAMAAAAHAAQAAQAHAAQAAAAHAAUAAQAHAAUAAAAIAAAAAQAIAAAAAAAIAAEAAQAIAAEAAAAIAAIAAQAIAAIAAAAIAAMAAQAIAAMAAAAIAAQAAQAIAAQAAAAIAAUAAQAIAAUAAAAJAAAAAQAJAAAAAAAJAAEAAQAJAAEAAAAJAAIAAQAJAAIAAAAJAAMAAQAJAAMAAAAJAAQAAQAJAAQAAAAJAAUAAQAJAAUAAAAKAAAAAQAKAAAAAAAKAAEAAQAKAAEAAAAKAAIAAQAKAAIAAAAKAAMAAQAKAAMAAAAKAAQAAQAKAAQAAAAKAAUAAQAKAAUAAAALAAAAAQALAAAAAAALAAEAAQALAAEAAAALAAIAAQALAAIAAAALAAMAAQALAAMAAAALAAQAAQALAAQAAAALAAUAAQALAAUAAAAMAAAAAQAMAAAAAAAMAAEAAQAMAAEAAAAMAAIAAQAMAAIAAAAMAAMAAQAMAAMAAAAMAAQAAQAMAAQAAAAMAAUAAQAMAAUAAAANAAAAAQANAAAAAAANAAEAAQANAAEAAAANAAIAAQANAAIAAAANAAMAAQANAAMAAAANAAQAAQANAAQAAAANAAUAAQANAAUAAAAOAAAAAQAOAAAAAAAOAAEAAQAOAAEAAAAOAAIAAQAOAAIAAAAOAAMAAQAOAAMAAAAOAAQAAQAOAAQAAAAOAAUAAQAOAAUAAAAPAAAAAQAPAAAAAAAPAAEAAQAPAAEAAAAPAAIAAQAPAAIAAAAPAAMAAQAPAAMAAAAPAAQAAQAPAAQAAAAPAAUAAQAPAAUAAAAQAAAAAQAQAAAAAAAQAAEAAQAQAAEAAAAQAAIAAQAQAAIAAAAQAAMAAQAQAAMAAAAQAAQAAQAQAAQAAAAQAAUAAQAQAAUAAAARAAAAAQARAAAAAAARAAEAAQARAAEAAAARAAIAAQARAAIAAAARAAMAAQARAAMAAAARAAQAAQARAAQAAAARAAUAAQARAAUAAAASAAAAAQASAAAAAAASAAEAAQASAAEAAAASAAIAAQASAAIAAAASAAMAAQASAAMAAAASAAQAAQASAAQAAAASAAUAAQASAAUAAAATAAAAAQATAAAAAAATAAEAAQATAAEAAAATAAIAAQATAAIAAAATAAMAAQATAAMAAAATAAQAAQATAAQAAAATAAUAAQATAAUAAAAUAAAAAQAUAAAAAAAUAAEAAQAUAAEAAAAUAAIAAQAUAAIAAAAUAAMAAQAUAAMAAAAUAAQAAQAUAAQAAAAUAAUAAQAUAAUAAAAVAAAAAQAVAAAAAAAVAAEAAQAVAAEAAAAVAAIAAQAVAAIAAAAVAAMAAQAVAAMAAAAVAAQAAQAVAAQAAAAVAAUAAQAVAAUAAAAWAAAAAQAWAAAAAAAWAAEAAQAWAAEAAAAWAAIAAQAWAAIAAAAWAAMAAQAWAAMAAAAWAAQAAQAWAAQAAAAWAAUAAQAWAAUAAAAXAAAAAQAXAAAAAAAXAAEAAQAXAAEAAAAXAAIAAQAXAAIAAAAXAAMAAQAXAAMAAAAXAAQAAQAXAAQAAAAXAAUAAQAXAAUAAAAYAAAAAQAYAAAAAAAYAAEAAQAYAAEAAAAYAAIAAQAYAAIAAAAYAAMAAQAYAAMAAAAYAAQAAQAYAAQAAAAYAAUAAQAYAAUAAAAZAAAAAQAZAAAAAAAZAAEAAQAZAAEAAAAZAAIAAQAZAAIAAAAZAAMAAQAZAAMAAAAZAAQAAQAZAAQAAAAZAAUAAQAZAAUAAAAaAAAAAQAaAAAAAAAaAAEAAQAaAAEAAAAaAAIAAQAaAAIAAAAaAAMAAQAaAAMAAAAaAAQAAQAaAAQAAAAaAAUAAQAaAAUAAAAbAAAAAQAbAAAAAAAbAAEAAQAbAAEAAAAbAAIAAQAbAAIAAAAbAAMAAQAbAAMAAAAbAAQAAQAbAAQAAAAbAAUAAQAbAAUAAAAAAAAAAQAAAAAAAAAcAAAAAQAcAAAAAAAcAAEAAQAcAAEAAAAcAAIAAQAcAAIAAAAcAAMAAQAcAAMAAAAcAAQAAQAcAAQAAAAcAAUAAQAcAAUAAAA=")
+[node name="TileMapLayer" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_gwbqk")
+format = 2
+layer_0/tile_data = PackedInt32Array(0, 1, 0, 65536, 1, 1, 131072, 1, 2, 196608, 1, 3, 262144, 1, 4, 327680, 1, 5, 1, 65537, 0, 65537, 65537, 1, 131073, 65537, 2, 196609, 65537, 3, 262145, 65537, 4, 327681, 65537, 5, 2, 131073, 0, 65538, 131073, 1, 131074, 131073, 2, 196610, 131073, 3, 262146, 131073, 4, 327682, 131073, 5, 3, 196609, 0, 65539, 196609, 1, 131075, 196609, 2, 196611, 196609, 3, 262147, 196609, 4, 327683, 196609, 5, 4, 262145, 0, 65540, 262145, 1, 131076, 262145, 2, 196612, 262145, 3, 262148, 262145, 4, 327684, 262145, 5, 5, 327681, 0, 65541, 327681, 1, 131077, 327681, 2, 196613, 327681, 3, 262149, 327681, 4, 327685, 327681, 5, 6, 393217, 0, 65542, 393217, 1, 131078, 393217, 2, 196614, 393217, 3, 262150, 393217, 4, 327686, 393217, 5, 7, 458753, 0, 65543, 458753, 1, 131079, 458753, 2, 196615, 458753, 3, 262151, 458753, 4, 327687, 458753, 5, 8, 524289, 0, 65544, 524289, 1, 131080, 524289, 2, 196616, 524289, 3, 262152, 524289, 4, 327688, 524289, 5, 9, 589825, 0, 65545, 589825, 1, 131081, 589825, 2, 196617, 589825, 3, 262153, 589825, 4, 327689, 589825, 5, 10, 655361, 0, 65546, 655361, 1, 131082, 655361, 2, 196618, 655361, 3, 262154, 655361, 4, 327690, 655361, 5, 11, 720897, 0, 65547, 720897, 1, 131083, 720897, 2, 196619, 720897, 3, 262155, 720897, 4, 327691, 720897, 5, 12, 786433, 0, 65548, 786433, 1, 131084, 786433, 2, 196620, 786433, 3, 262156, 786433, 4, 327692, 786433, 5, 13, 851969, 0, 65549, 851969, 1, 131085, 851969, 2, 196621, 851969, 3, 262157, 851969, 4, 327693, 851969, 5, 14, 917505, 0, 65550, 917505, 1, 131086, 917505, 2, 196622, 917505, 3, 262158, 917505, 4, 327694, 917505, 5, 15, 983041, 0, 65551, 983041, 1, 131087, 983041, 2, 196623, 983041, 3, 262159, 983041, 4, 327695, 983041, 5, 16, 1048577, 0, 65552, 1048577, 1, 131088, 1048577, 2, 196624, 1048577, 3, 262160, 1048577, 4, 327696, 1048577, 5, 17, 1114113, 0, 65553, 1114113, 1, 131089, 1114113, 2, 196625, 1114113, 3, 262161, 1114113, 4, 327697, 1114113, 5, 18, 1179649, 0, 65554, 1179649, 1, 131090, 1179649, 2, 196626, 1179649, 3, 262162, 1179649, 4, 327698, 1179649, 5, 19, 1245185, 0, 65555, 1245185, 1, 131091, 1245185, 2, 196627, 1245185, 3, 262163, 1245185, 4, 327699, 1245185, 5, 20, 1310721, 0, 65556, 1310721, 1, 131092, 1310721, 2, 196628, 1310721, 3, 262164, 1310721, 4, 327700, 1310721, 5, 21, 1376257, 0, 65557, 1376257, 1, 131093, 1376257, 2, 196629, 1376257, 3, 262165, 1376257, 4, 327701, 1376257, 5, 22, 1441793, 0, 65558, 1441793, 1, 131094, 1441793, 2, 196630, 1441793, 3, 262166, 1441793, 4, 327702, 1441793, 5, 23, 1507329, 0, 65559, 1507329, 1, 131095, 1507329, 2, 196631, 1507329, 3, 262167, 1507329, 4, 327703, 1507329, 5, 24, 1572865, 0, 65560, 1572865, 1, 131096, 1572865, 2, 196632, 1572865, 3, 262168, 1572865, 4, 327704, 1572865, 5, 25, 1638401, 0, 65561, 1638401, 1, 131097, 1638401, 2, 196633, 1638401, 3, 262169, 1638401, 4, 327705, 1638401, 5, 26, 1703937, 0, 65562, 1703937, 1, 131098, 1703937, 2, 196634, 1703937, 3, 262170, 1703937, 4, 327706, 1703937, 5, 27, 1769473, 0, 65563, 1769473, 1, 131099, 1769473, 2, 196635, 1769473, 3, 262171, 1769473, 4, 327707, 1769473, 5, 28, 1835009, 0, 65564, 1835009, 1, 131100, 1835009, 2, 196636, 1835009, 3, 262172, 1835009, 4, 327708, 1835009, 5)
 
 [node name="porta" type="AnimatedSprite2D" parent="TileMapLayer"]
 position = Vector2(64.0691, 32.0345)
@@ -607,9 +618,14 @@ scale = Vector2(1.01069, 1.00054)
 sprite_frames = SubResource("SpriteFrames_w7gat")
 frame_progress = 0.19455
 
+[node name="pendrive" parent="." instance=ExtResource("19_axrr5")]
+position = Vector2(57.3249, 74.1852)
+itemRes = ExtResource("11_mljkb")
+
 [node name="CharacterBody2D" parent="." instance=ExtResource("8_r0eml")]
 position = Vector2(118, 0)
 scale = Vector2(0.962898, 0.98269)
+collision_layer = 3
 
 [node name="colisões" type="StaticBody2D" parent="."]
 
@@ -682,6 +698,10 @@ layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+offset_left = 8.0
+offset_top = -8.0
+offset_right = 8.0
+offset_bottom = -8.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_constants/margin_left = 0
@@ -735,6 +755,10 @@ scale = Vector2(0.595354, 0.595354)
 [node name="moeda4" parent="moeda" instance=ExtResource("17_63xy3")]
 position = Vector2(91.0455, 70.8132)
 scale = Vector2(0.595354, 0.595354)
+
+[node name="coletavel" parent="." instance=ExtResource("20_j7mno")]
+position = Vector2(87.6734, 94.4176)
+itemRes = ExtResource("22_kjonx")
 
 [connection signal="timeout" from="tempo" to="." method="_on_tempo_timeout"]
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]

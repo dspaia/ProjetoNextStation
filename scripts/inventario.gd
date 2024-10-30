@@ -5,15 +5,16 @@ signal closed
 
 var isOpen: bool = false
 
-@onready var Inventario = preload("res://inventario/inventarioJogador.tres")
+@onready var inventario: Inventario = preload("res://inventario/inventarioJogador.tres")
 @onready var slots: Array = $NinePatchRect/GridContainer.get_children()
 
 func _ready():
+	inventario.updated.connect(update)
 	update()
 
 func update():
-	for i in range(min(Inventario.itens.size(), slots.size())):
-		slots[i].update(Inventario.itens[i])
+	for i in range(min(inventario.itens.size(), slots.size())):
+		slots[i].update(inventario.itens[i])
 
 func open():
 	visible = true

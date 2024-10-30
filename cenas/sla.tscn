@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxadaaa7yy6hm"]
+
+[ext_resource type="Script" path="res://scripts/coletavel.gd" id="1_5insq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ar2k6"]
+resource_local_to_scene = true
+
+[node name="coletavel" type="Area2D"]
+script = ExtResource("1_5insq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ar2k6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
