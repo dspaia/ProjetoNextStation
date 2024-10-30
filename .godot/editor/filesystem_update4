@@ -1,5 +1,9 @@
-res://cenas/milesimoteste.tscn
-res://inventario/inventarioJogador.tres
 res://cenas/metro.tscn
-res://cenas/npcteste.tscn
+res://inventario/inventarioJogador.tres
 res://cenas/interação_area.tscn
+res://scripts/gerente_interacao.gd
+res://scripts/hud_manager.gd
+res://addons/scenes/credits/credits.tscn
+res://addons/scenes/end_credits/end_credits.tscn
+res://addons/ATTRIBUTION.md
+res://cenas/conceicao.tscn
