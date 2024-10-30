@@ -20,8 +20,12 @@ config/icon="res://icon.svg"
 GerenteInteracao="*res://cenas/gerente_interacao.tscn"
 Gerentedialogo="*res://scripts/gerentedialogo.gd"
 Tudo="*res://scripts/tudo.gd"
+<<<<<<< HEAD
 Coletavel="*res://scripts/coletavel.gd"
 inventario="*res://cenas/inventario.tscn"
+=======
+Gerentemissaosenhora="*res://scripts/gerentemissaosenhora.gd"
+>>>>>>> Missão_da_Senhora
 
 [display]
 

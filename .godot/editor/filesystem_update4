@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 res://cenas/Jabaquara.tscn
 res://inventario/inventarioJogador.tres
 res://tema_botaol.tres
@@ -38,3 +39,12 @@ res://cenas/tela_inicial.tscn
 res://cenas/transição.tscn
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+=======
+res://cenas/metro.tscn
+res://inventario/inventarioJogador.tres
+res://scripts/gerentemissaosenhora.gd
+res://scripts/moeda.gd
+res://scripts/npcteste.gd
+res://cenas/milesimoteste.tscn
+res://cenas/npcteste.tscn
+>>>>>>> Missão_da_Senhora
