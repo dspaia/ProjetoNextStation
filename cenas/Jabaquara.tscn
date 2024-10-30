@@ -1,4 +1,4 @@
-[gd_scene load_steps=34 format=4 uid="uid://f5y8bwwf03ac"]
+[gd_scene load_steps=35 format=4 uid="uid://f5y8bwwf03ac"]
 
 [ext_resource type="Script" path="res://cenas/metro.gd" id="1_jdqms"]
 [ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_gitwk"]
@@ -19,6 +19,7 @@
 [ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_dctn0"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_70ksh"]
 [ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_smlqw"]
+[ext_resource type="PackedScene" uid="uid://c6bcg42cs0uvr" path="res://cenas/fones.tscn" id="20_cbnmb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_32uci"]
 texture = ExtResource("9_kkcft")
@@ -496,6 +497,9 @@ scale = Vector2(0.595354, 0.595354)
 [node name="moeda4" parent="moeda" instance=ExtResource("19_smlqw")]
 position = Vector2(91.0455, 70.8132)
 scale = Vector2(0.595354, 0.595354)
+
+[node name="coletavel" parent="." instance=ExtResource("20_cbnmb")]
+position = Vector2(55.6389, 71.2347)
 
 [connection signal="timeout" from="fade_in" to="." method="_on_tempo_timeout"]
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]
