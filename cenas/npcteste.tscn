@@ -29,7 +29,7 @@ script = ExtResource("1_23yx7")
 sprite_frames = SubResource("SpriteFrames_7h3li")
 
 [node name="interação_area" parent="." instance=ExtResource("2_kh06t")]
-"nome_da_ação" = "  Interagir"
+"nome_da_ação" = "Interagir"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="interação_area"]
 position = Vector2(-1, 5)

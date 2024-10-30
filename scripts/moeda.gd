@@ -23,9 +23,6 @@ func _on_body_entered(body: Node2D) -> void:
 		Tudo.moeda += moeda
 		print(Tudo.moeda)
 		
-		if Gerentemissaosenhora.missao_ativa:
-			Gerentemissaosenhora.coleta_moeda_missao()
-		
 		queue_free()  # Remove a moeda
 		
 	
