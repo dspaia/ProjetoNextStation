@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=3 uid="uid://ct1b01s28r2p1"]
 
 [ext_resource type="Texture2D" uid="uid://bpyy4xlcrkrkd" path="res://novos sprites/coin - Copia.png" id="1_57q1k"]
-[ext_resource type="Script" path="res://scripts/moeda.gd" id="1_pdcwa"]
+[ext_resource type="Script" path="res://Missoes/moeda.gd" id="1_pdcwa"]
 [ext_resource type="AudioStream" uid="uid://deqcixi2tayr4" path="res://audios/money-pickup-2-89563.mp3" id="3_rs1lh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ce8q7"]

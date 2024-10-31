@@ -11,14 +11,14 @@
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_q5s4g"]
 [ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_1ac6u"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_l3r6g"]
-[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="12_t688o"]
 [ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_c8hxc"]
 [ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_fyw2v"]
 [ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_hcis2"]
 [ext_resource type="Script" path="res://scripts/hud_conceicao.gd" id="16_gvu6y"]
 [ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_4vce3"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_pgvre"]
-[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_6x421"]
+[ext_resource type="PackedScene" uid="uid://qm0utjip44si" path="res://Missoes/miyuki.tscn" id="19_06o2t"]
+[ext_resource type="PackedScene" uid="uid://b68bpaunvxiop" path="res://Missoes/pendrive_missao.tscn" id="19_ejbwy"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uskl"]
 texture = ExtResource("9_q5s4g")
@@ -388,9 +388,6 @@ metadata/_edit_lock_ = true
 position = Vector2(1.5, 36)
 shape = SubResource("RectangleShape2D_shlko")
 
-[node name="npcrandom" parent="." instance=ExtResource("12_t688o")]
-position = Vector2(371.769, 74.1852)
-
 [node name="tvzinha" type="AnimatedSprite2D" parent="."]
 position = Vector2(111.699, 16.0173)
 sprite_frames = SubResource("SpriteFrames_fknab")
@@ -400,7 +397,7 @@ position = Vector2(343.95, 16.0173)
 sprite_frames = SubResource("SpriteFrames_fknab")
 
 [node name="fade_in" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 59.0
 
 [node name="fade_out" type="Timer" parent="fade_in"]
 wait_time = 3.0
@@ -481,23 +478,13 @@ theme_override_fonts/font = ExtResource("17_4vce3")
 theme_override_font_sizes/font_size = 8
 text = "Próxima Estação: São Judas"
 
-[node name="moeda" type="Node2D" parent="."]
+[node name="Miyuki" parent="." instance=ExtResource("19_06o2t")]
+position = Vector2(345.636, 71.6562)
 
-[node name="moeda" parent="moeda" instance=ExtResource("19_6x421")]
-position = Vector2(204.431, 67.4411)
-scale = Vector2(0.595354, 0.595354)
-
-[node name="moeda2" parent="moeda" instance=ExtResource("19_6x421")]
-position = Vector2(190.1, 69.5486)
-scale = Vector2(0.595354, 0.595354)
-
-[node name="moeda3" parent="moeda" instance=ExtResource("19_6x421")]
-position = Vector2(197.687, 75.0282)
-scale = Vector2(0.595354, 0.595354)
-
-[node name="moeda4" parent="moeda" instance=ExtResource("19_6x421")]
-position = Vector2(180.826, 70.3917)
-scale = Vector2(0.595354, 0.595354)
+[node name="pendrive_missao" parent="." instance=ExtResource("19_ejbwy")]
+light_mask = 31
+visibility_layer = 31
+position = Vector2(237.73, 78.4003)
 
 [connection signal="timeout" from="fade_in" to="." method="_on_fade_in_timeout"]
 [connection signal="timeout" from="fade_in/fade_out" to="." method="_on_fade_out_timeout"]

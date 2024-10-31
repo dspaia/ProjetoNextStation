@@ -11,7 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_et81r"]
 [ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_f6sp2"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_4j88h"]
-[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://cenas/npcteste.tscn" id="12_i40jx"]
+[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://Missoes/npcteste.tscn" id="12_i40jx"]
 [ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_eurof"]
 [ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_fu30b"]
 [ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_t6kws"]

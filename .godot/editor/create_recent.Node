@@ -1,7 +1,9 @@
 CollisionShape2D
+AnimatedSprite2D
+Area2D
+Node2D
 Sprite2D
 coletavel
-Area2D
 TileMap
 Label
 HBoxContainer
@@ -10,19 +12,3 @@ Sprite2D
 ParallaxLayer
 ParallaxBackground
 Timer
-<<<<<<< HEAD
-TileMapLayer
-AnimationPlayer
-ColorRect
-CanvasLayer
-ColorRect
-Sprite2D
-VBoxContainer
-=======
-AudioStreamPlayer2D
-Node2D
-Node
-AnimatedSprite2D
-TextureRect
-MarginContainer
->>>>>>> coletaveis_inventario

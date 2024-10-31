@@ -22,6 +22,8 @@ Gerentedialogo="*res://scripts/gerentedialogo.gd"
 Tudo="*res://scripts/tudo.gd"
 Coletavel="*res://scripts/coletavel.gd"
 inventario="*res://cenas/inventario.tscn"
+Gerentemissaosenhora="*res://scripts/gerentemissaosenhora.gd"
+Gerentemissaomiyuki="*res://scripts/Gerentemissaomiyuki.gd"
 
 [display]
 

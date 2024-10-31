@@ -1,0 +1,87 @@
+[gd_scene load_steps=14 format=3 uid="uid://xyv130iwclhk"]
+
+[ext_resource type="Script" path="res://Missoes/npcteste.gd" id="1_23yx7"]
+[ext_resource type="PackedScene" uid="uid://bnj4luwe8p8ds" path="res://cenas/interação_area.tscn" id="2_kh06t"]
+[ext_resource type="Texture2D" uid="uid://w80x7rocwl8x" path="res://sprite dona cleusa (parado direita-esquerda) 384x128 (1).png" id="2_sdiv4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_irbkn"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(0, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x4wua"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(48, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ddes1"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(96, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnnud"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(144, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t5ups"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(192, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4mmpw"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(240, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_niw5g"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(288, 0, 48, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gy7rq"]
+atlas = ExtResource("2_sdiv4")
+region = Rect2(336, 0, 48, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4jjic"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_irbkn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x4wua")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ddes1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vnnud")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t5ups")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4mmpw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_niw5g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gy7rq")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_dkh8j"]
+radius = 14.8661
+
+[node name="npcrandom" type="Node2D"]
+script = ExtResource("1_23yx7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_4jjic")
+autoplay = "default"
+frame_progress = 0.02255
+
+[node name="interação_area" parent="." instance=ExtResource("2_kh06t")]
+"nome_da_ação" = "Interagir"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interação_area"]
+position = Vector2(-1, 5)
+shape = SubResource("CircleShape2D_dkh8j")
