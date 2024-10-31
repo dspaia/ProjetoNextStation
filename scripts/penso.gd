@@ -4,10 +4,10 @@ extends Node2D
 @export var jogador = CharacterBody2D
 
 const fala: Array[String] = [
-	"Eai cara, sou o tal do Penso",
-	"Você ouviu o novo albúm do ",
+	"Eai, cara! Eu sou o Penso.",
+	"Você ouviu o novo albúm do...",
 	"TYLER, THE CREATOR???",
-	"Bro, ficou sabendo do caso do p diddy?"
+	"Bro, ficou sabendo do caso do P. Diddy!!??"
 	
 ]
 

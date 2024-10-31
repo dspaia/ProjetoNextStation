@@ -16,7 +16,7 @@ func _on_jogar_pressed() -> void:
 
 
 func _on_créditos_pressed() -> void:
-	pass # Replace with function body.
+	get_tree().change_scene_to_file("res://addons/scenes/credits/credits.tscn")
 
 
 func _on_sair_pressed() -> void:

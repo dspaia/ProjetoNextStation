@@ -1,262 +1,271 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1730339789
-assento comum.png::CompressedTexture2D::7903570217168958454::1730250273::1730339789::1::::<><>::
-assento preferencial.png::CompressedTexture2D::5847346593930477946::1730250273::1730339789::1::::<><>::
-icon.svg::CompressedTexture2D::7500813948369412993::1730250273::1730339789::1::::<><>::
-porta fechada.png::CompressedTexture2D::3497914795270212150::1730250274::1730339789::1::::<><>::
-README.md::TextFile::-1::1730339540::0::1::::<><>::
-sprite aleatorio.png::CompressedTexture2D::3358010420050282396::1730250274::1730339789::1::::<><>::
-sprite dona cleusa (parado direita-esquerda) 384x128 (1).png::CompressedTexture2D::1613839731648186101::1730339755::1730339789::1::::<><>::
-tema_botaol.tres::Theme::3672295851884368927::1730339664::0::1::::<><>::uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf
-tunel.png::CompressedTexture2D::9113482864305306121::1730250274::1730339789::1::::<><>::
-vagao finalizado.png::CompressedTexture2D::3241899294457213696::1730250274::1730339789::1::::<><>::
-::res://addons/::1730339541
-ATTRIBUTION.md::TextFile::-1::1730339540::0::1::::<><>::
-::res://addons/maaacks_credits_scene/::1730339541
-ATTRIBUTION.md::TextFile::-1::1730339540::0::1::::<><>::
-LICENSE.txt::TextFile::-1::1730339540::0::1::::<><>::
-maaacks_credits_scene.gd::GDScript::-1::1730339541::0::1::::<>EditorPlugin<>::
-plugin.cfg::TextFile::-1::1730339541::0::1::::<><>::
-README.md::TextFile::-1::1730339540::0::1::::<><>::
-::res://addons/maaacks_credits_scene/base/::1730339540
-::res://addons/maaacks_credits_scene/base/scenes/::1730339540
-::res://addons/maaacks_credits_scene/base/scenes/credits/::1730339540
-credits.gd::GDScript::-1::1730339540::0::1::::Credits<>Control<>::
-credits.tscn::PackedScene::1389544567206053885::1730339540::0::1::::<><>::res://addons/maaacks_credits_scene/base/scenes/credits/credits.gd
-::res://addons/maaacks_credits_scene/base/scenes/music_players/::1730339540
-background_music_player.tscn::PackedScene::90986700461605327::1730339540::0::1::::<><>::
-::res://addons/maaacks_credits_scene/base/scripts/::1730339541
-capture_focus.gd::GDScript::-1::1730339541::0::1::::CaptureFocus<>Container<>::
-::res://addons/maaacks_credits_scene/docs/::1730339541
-ExistingProject.md::TextFile::-1::1730339541::0::1::::<><>::
-::res://addons/maaacks_credits_scene/installer/::1730339541
-copy_confirmation_dialog.tscn::PackedScene::6506630939107533720::1730339541::0::1::::<><>::
-delete_examples_confirmation_dialog.tscn::PackedScene::1486575449804542269::1730339541::0::1::::<><>::
-delete_examples_short_confirmation_dialog.tscn::PackedScene::8971940147153825926::1730339541::0::1::::<><>::
-destination_dialog.tscn::PackedScene::5524076666757777413::1730339541::0::1::::<><>::
-play_opening_confirmation_dialog.tscn::PackedScene::4772355121568732055::1730339541::0::1::::<><>::
-::res://addons/scenes/::1730339541
-::res://addons/scenes/credits/::1730339541
-credits.gd::GDScript::-1::1730339541::0::1::::<>Credits<>::
-credits.tscn::PackedScene::1366935501742092764::1730339541::0::1::::<><>::uid://t2dui8ppm3a4::::res://addons/maaacks_credits_scene/base/scenes/credits/credits.tscn<>res://addons/scenes/credits/credits.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf
-::res://addons/scenes/end_credits/::1730339541
-end_credits.gd::GDScript::-1::1730339541::0::1::::<>Credits<>::
-end_credits.tscn::PackedScene::1729387719302833110::1730339541::0::1::::<><>::uid://tqfh0tnfy2hs::::res://addons/scenes/credits/credits.tscn<>res://addons/scenes/end_credits/end_credits.gd<>uid://bkcsjsk2ciff::::res://addons/maaacks_credits_scene/base/scenes/music_players/background_music_player.tscn<>res://addons/maaacks_credits_scene/base/scripts/capture_focus.gd
-::res://audios/::1730339788
-moedaaudio.tscn::PackedScene::5244197458789357110::1730250273::0::1::::<><>::uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
-money-pickup-2-89563.mp3::AudioStreamMP3::7473184411680825039::1730250273::1730339788::1::::<><>::
-::res://cenas/::1730343579
-caixa_dialogo.tscn::PackedScene::3019450391415330737::1730250273::0::1::::<><>::res://scripts/caixa_dialogo.gd<>uid://dgsjfonvd0q1i::::res://Dialogo/dialogue_box.png<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
-conceicao.gd::GDScript::-1::1730339541::0::1::::<>Node2D<>::
-Conceicao.tscn::PackedScene::6429060544813935061::1730342110::0::1::::<><>::res://cenas/conceicao.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_conceicao.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://c620qj7tocqxg::::res://cenas/adrianoricardotscn.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://ct1b01s28r2p1::::res://cenas/moeda.tscn
-fones.tscn::PackedScene::6950893611671032851::1730339755::0::1::::<><>::res://scripts/coletavel.gd<>uid://cl7mudrnvpahg::::res://novos sprites/fones de ouvido.png
-gerente_interacao.tscn::PackedScene::6757341566358151971::1730250273::0::1::::<><>::res://scripts/gerente_interacao.gd<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
-interação_area.tscn::PackedScene::3319236571976409988::1730341743::0::1::::<><>::res://scripts/interação_area.gd
-inventario.tscn::PackedScene::4443942548461640222::1730339495::0::1::::<><>::res://scripts/inventario.gd<>uid://b52v8blf7fhox::::res://novos sprites/inventario/inventario-slot (2).png<>uid://d1or58y6vxerc::::res://cenas/slot.tscn
-Jabaquara.tscn::PackedScene::414391777353535178::1730342110::0::1::::<><>::res://cenas/metro.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://xyv130iwclhk::::res://Missoes/npcteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_manager.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://ct1b01s28r2p1::::res://cenas/moeda.tscn<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn
-metro.gd::GDScript::-1::1730339667::0::1::::<>Node2D<>::
-milesimoteste.tscn::PackedScene::3429778145947638137::1730342110::0::1::::<><>::res://scripts/milesimoteste.gd<>uid://bn3v682lhni1q::::res://sprite aleatorio.png<>uid://286yr5bywa6n::::res://inventario/inventarioJogador.tres
-moeda.tscn::PackedScene::6160209974639899132::1730342111::0::1::::<><>::uid://bpyy4xlcrkrkd::::res://novos sprites/coin - Copia.png<>res://Missoes/moeda.gd<>uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
-pendrive.tscn::PackedScene::969686626930470391::1730339755::0::1::::<><>::uid://cxadaaa7yy6hm::::res://cenas/sla.tscn<>uid://cji77847c5sa1::::res://novos sprites/pendrive da miyuki.png
-penso(1).png::CompressedTexture2D::8028511090314955484::1730342455::1730342428::1::::<><>::
-porta.tscn::PackedScene::909469687450943951::1730250273::0::1::::<><>::uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png
-praca_da_arvore.gd::GDScript::-1::1730339541::0::1::::<>Node2D<>::
-Praca_da_Arvore.tscn::PackedScene::1707592475207406307::1730343482::0::1::::<><>::res://cenas/praca_da_arvore.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_pracadaarvore.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://bqgne1lvat6iy::::res://cenas/abelha.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn
-adrianoricardotscn.tscn::PackedScene::7005980740072432164::1730342111::0::1::::<><>::res://scripts/adrianoricardotscn.gd<>uid://ll2swwisnd8x::::res://Missoes/adriano-ricardo(1).png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
-moeda_npva.tscn::PackedScene::8819543835257522859::1730342111::0::1::::<><>::res://scripts/moeda_npva.gd<>uid://bpyy4xlcrkrkd::::res://novos sprites/coin - Copia.png<>uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
-penso.tscn::PackedScene::8762292951781803988::1730342477::0::1::::<><>::res://scripts/penso.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://x6kn3p4ulsgu::::res://Missoes/penso(1).png
-gaybriel.tscn::PackedScene::4513649198012742788::1730343081::0::1::::<><>::res://scripts/gaybriel.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://cagq2aclb2clf::::res://Missoes/gabriel.png
-abelha.tscn::PackedScene::3522626296062440604::1730343385::0::1::::<><>::res://scripts/abelha.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://bg547smbjc2kl::::res://Missoes/abelha.png
-shun.tscn::PackedScene::7725938605109184541::1730343579::0::1::::<><>::res://scripts/adrianoricardotscn.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
-santa_cruz.gd::GDScript::-1::1730339541::0::1::::<>Node2D<>::
-Santa_Cruz.tscn::PackedScene::6112996879835612765::1730342111::0::1::::<><>::res://cenas/santa_cruz.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://xyv130iwclhk::::res://Missoes/npcteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_santacruz.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://ct1b01s28r2p1::::res://cenas/moeda.tscn
-sao_judas.gd::GDScript::-1::1730339541::0::1::::<>Node2D<>::
-Sao_Judas.tscn::PackedScene::5944653360453527317::1730342742::0::1::::<><>::res://cenas/sao_judas.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_saojudas.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dw3rxjst1p4om::::res://cenas/penso.tscn<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://c6bcg42cs0uvr::::res://cenas/fones.tscn
-saude.gd::GDScript::-1::1730339541::0::1::::<>Node2D<>::
-Saude.tscn::PackedScene::7753861691253134565::1730343185::0::1::::<><>::res://cenas/saude.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://novos sprites/fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_saude.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://b5kpe4eeytume::::res://cenas/gaybriel.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn
-sla.tscn::PackedScene::6387366923526231350::1730339755::0::1::::<><>::res://scripts/coletavel.gd
-slot.tscn::PackedScene::9014160808702489916::1730339495::0::1::::<><>::res://scripts/slot.gd<>uid://be0j1ibl7apy::::res://novos sprites/inventario/inventario-slot.png
-tela_de_dialogo.tscn::PackedScene::445366419721001653::1730250273::0::1::::<><>::
-tela_inicial.tscn::PackedScene::1105774542530251870::1730339664::0::1::::<><>::res://scripts/tela_inicial.gd<>uid://bltfh5g75f71b::::res://novos sprites/city 3/1.png<>uid://dobmvfen3on5h::::res://novos sprites/city 3/2.png<>uid://dgxxnw05mjmhe::::res://novos sprites/city 3/3.png<>uid://4nur0kj5512b::::res://novos sprites/city 3/4.png<>uid://ccbjexsb4gian::::res://novos sprites/city 3/5.png<>uid://bsk5f8vppn4m2::::res://tema_botaol.tres
-title_screen.tscn::PackedScene::8634297270017125801::1730250273::0::1::::<><>::uid://bltfh5g75f71b::::res://novos sprites/city 3/1.png<>uid://dobmvfen3on5h::::res://novos sprites/city 3/2.png<>uid://dgxxnw05mjmhe::::res://novos sprites/city 3/3.png<>uid://4nur0kj5512b::::res://novos sprites/city 3/4.png<>uid://ccbjexsb4gian::::res://novos sprites/city 3/5.png<>uid://dr7yt32biuiym::::res://novos sprites/city 3/botão jogar (1).png
-transição.gdshader::Shader::-1::1730339541::0::1::::<><>::
-transição.tscn::PackedScene::8749549153359058554::1730339541::0::1::::<><>::res://cenas/transição.gdshader
-::res://Dialogo/::1730339794
-dialogue_box.png::CompressedTexture2D::7618110050753510420::1730250273::1730339794::1::::<><>::
-::res://fonte/::1730339787
-RevMiniPixel.ttf::FontFile::8131905133759988702::1730250273::1730339787::1::::<><>::
-::res://Fontes/::1730250273
-::res://Fontes/Pixeloid_Font_0_5/::1730250273
-License.txt::TextFile::-1::1730250273::0::1::::<><>::
-::res://Fontes/Pixeloid_Font_0_5/OpenType (.otf)/::1730339787
-PixeloidMono.otf::FontFile::843003584760038458::1730250273::1730339787::1::::<><>::
-PixeloidSans-Bold.otf::FontFile::4775964186688829854::1730250273::1730339787::1::::<><>::
-PixeloidSans.otf::FontFile::2376499605364236877::1730250273::1730339787::1::::<><>::
-::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/::1730339788
-PixeloidMono.ttf::FontFile::8892654703119835316::1730250273::1730339788::1::::<><>::
-PixeloidSans-Bold.ttf::FontFile::9139196963885040043::1730250273::1730339788::1::::<><>::
-PixeloidSans.ttf::FontFile::7385439552490578873::1730250273::1730339788::1::::<><>::
-::res://Fontes/Pixeloid_Font_0_5/Web Open Font Format (.woff)/::1730339788
-PixeloidMono.woff::FontFile::8514949162658376017::1730250273::1730339788::1::::<><>::
-PixeloidMono.woff2::FontFile::1676296453293550950::1730250273::1730339788::1::::<><>::
-PixeloidSans-Bold.woff::FontFile::1844417185619349051::1730250273::1730339788::1::::<><>::
-PixeloidSans-Bold.woff2::FontFile::75777108004429953::1730250273::1730339788::1::::<><>::
-PixeloidSans.woff::FontFile::9179620376941761528::1730250273::1730339787::1::::<><>::
-PixeloidSans.woff2::FontFile::7156756654351556485::1730250273::1730339787::1::::<><>::
-::res://fundo cidade/::1730339793
-1.png::CompressedTexture2D::3912961513740046064::1730250273::1730339793::1::::<><>::
-2.png::CompressedTexture2D::3059019626149940446::1730250273::1730339793::1::::<><>::
-3.png::CompressedTexture2D::8019365927294566182::1730250273::1730339793::1::::<><>::
-4.png::CompressedTexture2D::2949830983392770710::1730250273::1730339793::1::::<><>::
-5.png::CompressedTexture2D::2292110778154952433::1730250273::1730339793::1::::<><>::
-nuvens (1).png::CompressedTexture2D::3988663607262453261::1730250273::1730339793::1::::<><>::
-segurador 480x160.png::CompressedTexture2D::5127150798991011172::1730250273::1730339793::1::::<><>::
-::res://inventario/::1730339813
-inventario.gd::GDScript::-1::1730339755::0::1::::Inventario<>Resource<>::
-inventarioJogador.tres::Resource/Inventario::1965149269259783035::1730339813::0::1::::<><>::res://inventario/itensinventario.gd<>res://inventario/inventario.gd
-itensinventario.gd::GDScript::-1::1730250273::0::1::::ItensInventario<>Resource<>::
-::res://inventario/itens/::1730339755
-carteira.tres::Resource/ItensInventario::2349713189602227341::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://orlq8m880gb8::::res://novos sprites/inventario/carteira.png
-chocolate.tres::Resource/ItensInventario::2723806417526178752::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://dkdddscoas0cr::::res://novos sprites/inventario/chocolate (2).png
-fones.tres::Resource/ItensInventario::1621292623967838974::1730339755::0::1::::<><>::res://inventario/itensinventario.gd<>uid://cl7mudrnvpahg::::res://novos sprites/fones de ouvido.png
-garrafa.tres::Resource/ItensInventario::8265581560368040034::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://ch3u02nae4pkk::::res://novos sprites/inventario/garrafa-de-agua (2).png
-guarda-chuva.tres::Resource/ItensInventario::6010142172172499066::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://c5ujmttacmbrf::::res://novos sprites/inventario/guarda-chuva(3).png
-kit-faca.tres::Resource/ItensInventario::3520172375515038457::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://cpj7r74b42nmd::::res://novos sprites/inventario/kit-faca(1).png
-livro.tres::Resource/ItensInventario::8784684398125012859::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://b6jqehl22yx1d::::res://novos sprites/inventario/livro(3).png
-meia.tres::Resource/ItensInventario::8431326956891381806::1730250273::0::1::::<><>::res://inventario/itensinventario.gd<>uid://egep284gksje::::res://novos sprites/inventario/meia (2).png
-pendrive.tres::Resource/ItensInventario::2284515884624406176::1730339755::0::1::::<><>::res://inventario/itensinventario.gd<>uid://cji77847c5sa1::::res://novos sprites/pendrive da miyuki.png
-::res://Missoes/::1730343624
-abelha.png::CompressedTexture2D::2871303980353800971::1730343290::1730343290::1::::<><>::
-adriano-ricardo(1).png::CompressedTexture2D::796458128295449741::1730341068::1730341068::1::::<><>::
-gabriel.png::CompressedTexture2D::4786247325822055115::1730342918::1730342918::1::::<><>::
-miyuki.gd::GDScript::-1::1730339755::0::1::::<>Node2D<>::
-miyuki.png::CompressedTexture2D::9038873325166224246::1730339755::1730339793::1::::<><>::
-miyuki.tscn::PackedScene::1149348684186089848::1730340777::0::1::::<><>::res://Missoes/miyuki.gd<>uid://d11q6ncldgmta::::res://Missoes/miyuki.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
-moeda.gd::GDScript::-1::1730339755::0::1::::<>Area2D<>::
-npcteste.gd::GDScript::-1::1730340775::0::1::::<>Node2D<>::
-npcteste.tscn::PackedScene::1665211466928691284::1730342111::0::1::::<><>::res://Missoes/npcteste.gd<>uid://d11q6ncldgmta::::res://Missoes/miyuki.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
-pendrive_missao.gd::GDScript::-1::1730339755::0::1::::<>Area2D<>::
-pendrive_missao.tscn::PackedScene::4630486837773143091::1730340777::0::1::::<><>::res://Missoes/pendrive_missao.gd<>uid://cji77847c5sa1::::res://novos sprites/pendrive da miyuki.png
-penso(1).png::CompressedTexture2D::1678970994469703840::1730342463::1730342464::1::::<><>::
-shun(1).png::CompressedTexture2D::6018852889790140147::1730343624::1730343625::1::::<><>::
-::res://nextstation/::1730339800
-1-tela.jpg::CompressedTexture2D::7259760435888032341::1730339541::1730339793::1::::<><>::
-2-tela.jpg::CompressedTexture2D::9107696658515945577::1730339541::1730339793::1::::<><>::
-3-tela.jpg::CompressedTexture2D::3203536865483695973::1730339541::1730339793::1::::<><>::
-4-tela.jpg::CompressedTexture2D::7172338107031048746::1730339541::1730339792::1::::<><>::
-5-tela.jpg::CompressedTexture2D::1906257567994051792::1730339541::1730339792::1::::<><>::
-6-tela.jpg::CompressedTexture2D::6017871933490755768::1730339541::1730339794::1::::<><>::
-adriano.jpeg::CompressedTexture2D::3971632694234674990::1730339541::1730339791::1::::<><>::
-e.png::CompressedTexture2D::8910643144232372501::1730339541::1730339791::1::::<><>::
-espaco.png::CompressedTexture2D::837139632283957910::1730339541::1730339791::1::::<><>::
-gabriel.jpeg::CompressedTexture2D::5856513738471346249::1730339541::1730339791::1::::<><>::
-i.png::CompressedTexture2D::8468977932820288204::1730339541::1730339791::1::::<><>::
-imagem-inicial.png::CompressedTexture2D::6379486721335836891::1730339541::1730339791::1::::<><>::
-julia.png::CompressedTexture2D::230572736981595108::1730339541::1730339790::1::::<><>::
-logo.png::CompressedTexture2D::1724829082802522462::1730339541::1730339791::1::::<><>::
-luana.jpeg::CompressedTexture2D::9144893925568966191::1730339541::1730339790::1::::<><>::
-manual-wallpaper.jpg::CompressedTexture2D::5641943203458956666::1730339541::1730339798::1::::<><>::
-setinhas.png::CompressedTexture2D::8985768966190682825::1730339541::1730339796::1::::<><>::
-trem.png::CompressedTexture2D::6358736255495387661::1730339541::1730339800::1::::<><>::
-wasd.png::CompressedTexture2D::4600182620448270408::1730339542::1730339795::1::::<><>::
-::res://novos sprites/::1730339790
-assento comum 1.png::CompressedTexture2D::278250738949588543::1730250274::1730339788::1::::<><>::
-assento comum 2.png::CompressedTexture2D::7761128782154612499::1730250274::1730339788::1::::<><>::
-assento comum 3.png::CompressedTexture2D::8886225371611901027::1730250274::1730339788::1::::<><>::
-assento comum 4.png::CompressedTexture2D::4143377328632891510::1730250274::1730339788::1::::<><>::
-assento comum 5.png::CompressedTexture2D::344298797118746240::1730250274::1730339788::1::::<><>::
-assento comum.png::CompressedTexture2D::8727214372186300492::1730250274::1730339788::1::::<><>::
-assento preferencial 1.png::CompressedTexture2D::8199100377320074079::1730250274::1730339788::1::::<><>::
-assento preferencial 2.png::CompressedTexture2D::4583131016401807236::1730250274::1730339788::1::::<><>::
-assento preferencial 3.png::CompressedTexture2D::3511261129981241215::1730250274::1730339788::1::::<><>::
-assento preferencial 4.png::CompressedTexture2D::884101947650893411::1730250274::1730339790::1::::<><>::
-assento preferencial 5.png::CompressedTexture2D::2656205609343510878::1730250274::1730339790::1::::<><>::
-assento preferencial 6.png::CompressedTexture2D::8706870873246045393::1730250274::1730339790::1::::<><>::
-assento preferencial 7.png::CompressedTexture2D::6495787191349698886::1730250274::1730339790::1::::<><>::
-assento preferencial.png::CompressedTexture2D::1013831948989255664::1730250274::1730339790::1::::<><>::
-coin - Copia.png::CompressedTexture2D::3490308625354562043::1730250274::1730339790::1::::<><>::
-coin.png::CompressedTexture2D::841763457665135666::1730250274::1730339790::1::::<><>::
-fones de ouvido.png::CompressedTexture2D::5611743239776805532::1730339755::1730339790::1::::<><>::
-icone_moeda.png::CompressedTexture2D::7952839152872309115::1730250274::1730339790::1::::<><>::
-pendrive da miyuki.png::CompressedTexture2D::5423057850862144306::1730339755::1730339790::1::::<><>::
-porta fechada 64x64.png::CompressedTexture2D::5508972482157331936::1730250274::1730339790::1::::<><>::
-porta fechada.png::CompressedTexture2D::7134373182154516547::1730250274::1730339790::1::::<><>::
-sprite porta.png::CompressedTexture2D::3839348747251695117::1730250274::1730339790::1::::<><>::
-sprite tvzinha 1.png::CompressedTexture2D::6423085131080878286::1730250274::1730339789::1::::<><>::
-::res://novos sprites/city 3/::1730339795
-1.png::CompressedTexture2D::3198038813023348477::1730250274::1730339795::1::::<><>::
-2.png::CompressedTexture2D::8144736614775629319::1730250274::1730339795::1::::<><>::
-3.png::CompressedTexture2D::7629296702918544810::1730250274::1730339795::1::::<><>::
-4.png::CompressedTexture2D::2063559403639445487::1730250274::1730339795::1::::<><>::
-5.png::CompressedTexture2D::4915838264454811469::1730250274::1730339795::1::::<><>::
-6.png::CompressedTexture2D::3966453860328235121::1730250274::1730339795::1::::<><>::
-7.png::CompressedTexture2D::5383073879802026513::1730250274::1730339795::1::::<><>::
-botão créditos.png::CompressedTexture2D::9193468249088013575::1730250274::1730339795::1::::<><>::
-botão jogar (1).png::CompressedTexture2D::8420025131386800220::1730250274::1730339794::1::::<><>::
-botão jogar (2).png::CompressedTexture2D::44107588608475827::1730250274::1730339794::1::::<><>::
-botão jogar.png::CompressedTexture2D::6674329880928274492::1730250274::1730339794::1::::<><>::
-botão sair.png::CompressedTexture2D::2302874632324623945::1730250274::1730339794::1::::<><>::
-trem.png::CompressedTexture2D::7511118176088195674::1730250274::1730339794::1::::<><>::
-::res://novos sprites/fundo cidade/::1730339794
-1.png::CompressedTexture2D::3912961513740046064::1730250274::1730339794::1::::<><>::
-2.png::CompressedTexture2D::3059019626149940446::1730250274::1730339789::1::::<><>::
-3.png::CompressedTexture2D::8019365927294566182::1730250274::1730339789::1::::<><>::
-4.png::CompressedTexture2D::2949830983392770710::1730250274::1730339789::1::::<><>::
-5.png::CompressedTexture2D::2292110778154952433::1730250274::1730339789::1::::<><>::
-nuvens (1).png::CompressedTexture2D::3988663607262453261::1730250274::1730339789::1::::<><>::
-segurador 480x160.png::CompressedTexture2D::5127150798991011172::1730250274::1730339789::1::::<><>::
-::res://novos sprites/fundo cidade/city 3/::1730339795
-1.png::CompressedTexture2D::9221745601403759739::1730339542::1730339794::1::::<><>::
-2.png::CompressedTexture2D::4334634033025385566::1730339542::1730339794::1::::<><>::
-3.png::CompressedTexture2D::3474612934007157162::1730339542::1730339794::1::::<><>::
-4.png::CompressedTexture2D::3625076492555553968::1730339542::1730339794::1::::<><>::
-5.png::CompressedTexture2D::4217120555315266682::1730339542::1730339794::1::::<><>::
-6.png::CompressedTexture2D::9122048644453483832::1730339542::1730339794::1::::<><>::
-7.png::CompressedTexture2D::1220315621226741932::1730339542::1730339795::1::::<><>::
-::res://novos sprites/inventario/::1730339788
-carteira.png::CompressedTexture2D::1018436445727044435::1730250274::1730339788::1::::<><>::
-chocolate (2).png::CompressedTexture2D::7867532078228564233::1730250274::1730339788::1::::<><>::
-garrafa-de-agua (2).png::CompressedTexture2D::5323226272888468354::1730250274::1730339788::1::::<><>::
-guarda-chuva(3).png::CompressedTexture2D::6920363141368208779::1730250274::1730339788::1::::<><>::
-inventario-slot (2).png::CompressedTexture2D::4549158250026987543::1730250274::1730339788::1::::<><>::
-inventario-slot.png::CompressedTexture2D::79981729645509606::1730250274::1730339788::1::::<><>::
-kit-faca(1).png::CompressedTexture2D::5846228449639934423::1730250274::1730339788::1::::<><>::
-livro(3).png::CompressedTexture2D::4581833237238633827::1730250274::1730339788::1::::<><>::
-meia (2).png::CompressedTexture2D::293412766391186574::1730250274::1730339788::1::::<><>::
-::res://scripts/::1730343593
-animated_sprite_2d.gd::GDScript::-1::1730250274::0::1::::<>AnimatedSprite2D<>::
-assento_7.gd::GDScript::-1::1730250274::0::1::::<>CollisionShape2D<>::
-assento_comum.gd::GDScript::-1::1730250274::0::1::::assento<>Sprite2D<>::
-caixa_dialogo.gd::GDScript::-1::1730250274::0::1::::<>MarginContainer<>::
-camera_2d.gd::GDScript::-1::1730250274::0::1::::<>Camera2D<>::
-canvas_layer.gd::GDScript::-1::1730250274::0::1::::<>CanvasLayer<>::
-character_body_2d.gd::GDScript::-1::1730250274::0::1::::<>CharacterBody2D<>::
-coletavel.gd::GDScript::-1::1730339755::0::1::::coletavel<>Area2D<>::
-FOXSPRITESHEET.png::CompressedTexture2D::4491872179048202739::1730339755::1730339789::1::::<><>::
-gerentedialogo.gd::GDScript::-1::1730250274::0::1::::<>Node<>::
-Gerentemissaomiyuki.gd::GDScript::-1::1730339755::0::1::::<>Node<>::
-gerentemissaosenhora.gd::GDScript::-1::1730339755::0::1::::<>Node<>::
-gerente_interacao.gd::GDScript::-1::1730339542::0::1::::<>Node2D<>::
-global.gd::GDScript::-1::1730250274::0::1::::<>Camera2D<>::
-hud_conceicao.gd::GDScript::-1::1730342262::0::1::::<>Control<>::
-hud_manager.gd::GDScript::-1::1730339882::0::1::::<>Control<>::
-hud_pracadaarvore.gd::GDScript::-1::1730339542::0::1::::<>Control<>::
-hud_santacruz.gd::GDScript::-1::1730339667::0::1::::<>Control<>::
-hud_saojudas.gd::GDScript::-1::1730339667::0::1::::<>Control<>::
-hud_saude.gd::GDScript::-1::1730339667::0::1::::<>Control<>::
-interação_area.gd::GDScript::-1::1730250274::0::1::::InteraçãoArea<>Area2D<>::
-inventario.gd::GDScript::-1::1730339755::0::1::::<>Control<>::
-metro.gd::GDScript::-1::1730250274::0::1::::<>Node2D<>::
-milesimoteste.gd::GDScript::-1::1730339755::0::1::::<>CharacterBody2D<>::
-parallax_background.gd::GDScript::-1::1730250274::0::1::::<>Node2D<>::
-parallax_layer.gd::GDScript::-1::1730250274::0::1::::<>Parallax2D<>::
-adrianoricardotscn.gd::GDScript::-1::1730341688::0::1::::<>Node2D<>::
-moeda_npva.gd::GDScript::-1::1730342029::0::1::::<>Area2D<>::
-penso.gd::GDScript::-1::1730342742::0::1::::<>Node2D<>::
-gaybriel.gd::GDScript::-1::1730343185::0::1::::<>Node2D<>::
-abelha.gd::GDScript::-1::1730343385::0::1::::<>Node2D<>::
-shun.gd::GDScript::-1::1730343593::0::1::::<>Node2D<>::
-slot.gd::GDScript::-1::1730250274::0::1::::<>Panel<>::
-tela_inicial.gd::GDScript::-1::1730339542::0::1::::<>Control<>::
-tudo.gd::GDScript::-1::1730339755::0::1::::<>Node<>::
-VAGAO SUPREMO 480x96.png::CompressedTexture2D::7569102677714985562::1730250274::1730339789::1::::<><>::
+::res://::1730349247
+assento comum.png::CompressedTexture2D::7903570217168958454::1730137262::1730345508::1::::<><>::
+assento preferencial.png::CompressedTexture2D::5847346593930477946::1730137262::1730345508::1::::<><>::
+icon.svg::CompressedTexture2D::7500813948369412993::1730137262::1730345508::1::::<><>::
+logo2-removebg-preview.png::CompressedTexture2D::2164083075899523003::1730349247::1730349248::1::::<><>::
+porta fechada.png::CompressedTexture2D::3497914795270212150::1730137262::1730345508::1::::<><>::
+README.md::TextFile::-1::1730313866::0::1::::<><>::
+musica.tscn::PackedScene::1356127341433633950::1730347082::0::1::::<><>::uid://cia6u0qo2qian::::res://audios/An Ugly Heart But It does Beats.mp3
+meia.tscn::PackedScene::3768363448475168880::1730347645::0::1::::<><>::res://scripts/coletavel.gd<>uid://dsegyt7uldrqc::::res://inventario/itens/meia.tres<>uid://egep284gksje::::res://novos sprites/inventario/meia (2).png
+livro.tscn::PackedScene::83724981714125190::1730347880::0::1::::<><>::res://scripts/coletavel.gd<>uid://dxfmp6xasmlpr::::res://inventario/itens/livro.tres<>uid://b6jqehl22yx1d::::res://novos sprites/inventario/livro(3).png
+guardachuva.tscn::PackedScene::8473369539996562225::1730348519::0::1::::<><>::res://scripts/coletavel.gd<>uid://c5ujmttacmbrf::::res://novos sprites/inventario/guarda-chuva(3).png<>uid://crvmfs8sd2lf3::::res://inventario/itens/guarda-chuva.tres
+garrafa.tscn::PackedScene::2842974360769675816::1730348145::0::1::::<><>::res://scripts/coletavel.gd<>uid://dp056kkrobne5::::res://inventario/itens/garrafa.tres<>uid://ch3u02nae4pkk::::res://novos sprites/inventario/garrafa-de-agua (2).png
+chocolate.tscn::PackedScene::1650293055850264275::1730348357::0::1::::<><>::res://scripts/coletavel.gd<>uid://be2oxt75qyimi::::res://inventario/itens/chocolate.tres<>uid://dkdddscoas0cr::::res://novos sprites/inventario/chocolate (2).png
+carteira.tscn::PackedScene::1548029436449125912::1730348649::0::1::::<><>::res://scripts/coletavel.gd<>uid://8qhoyqddoy6p::::res://inventario/itens/carteira.tres<>uid://orlq8m880gb8::::res://novos sprites/inventario/carteira.png
+sprite aleatorio.png::CompressedTexture2D::3358010420050282396::1730137262::1730345508::1::::<><>::
+sprite dona cleusa (parado direita-esquerda) 384x128 (1).png::CompressedTexture2D::1613839731648186101::1730341238::1730345508::1::::<><>::
+tema_botaol.tres::Theme::3672295851884368927::1730345519::0::1::::<><>::uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf
+tunel.png::CompressedTexture2D::9113482864305306121::1730137262::1730345507::1::::<><>::
+vagao finalizado.png::CompressedTexture2D::3241899294457213696::1730137262::1730345507::1::::<><>::
+::res://addons/::1730327763
+ATTRIBUTION.md::TextFile::-1::1730327763::0::1::::<><>::
+::res://addons/maaacks_credits_scene/::1730327763
+ATTRIBUTION.md::TextFile::-1::1730327763::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1730327763::0::1::::<><>::
+maaacks_credits_scene.gd::GDScript::-1::1730327763::0::1::::<>EditorPlugin<>::
+plugin.cfg::TextFile::-1::1730327763::0::1::::<><>::
+README.md::TextFile::-1::1730327763::0::1::::<><>::
+::res://addons/maaacks_credits_scene/base/::1730327763
+::res://addons/maaacks_credits_scene/base/scenes/::1730327763
+::res://addons/maaacks_credits_scene/base/scenes/credits/::1730345394
+credits.gd::GDScript::-1::1730327763::0::1::::Credits<>Control<>::
+credits.tscn::PackedScene::1389544567206053885::1730345394::0::1::::<><>::res://addons/maaacks_credits_scene/base/scenes/credits/credits.gd
+::res://addons/maaacks_credits_scene/base/scenes/music_players/::1730327763
+background_music_player.tscn::PackedScene::90986700461605327::1730327763::0::1::::<><>::
+::res://addons/maaacks_credits_scene/base/scripts/::1730327763
+capture_focus.gd::GDScript::-1::1730327763::0::1::::CaptureFocus<>Container<>::
+::res://addons/maaacks_credits_scene/docs/::1730327763
+ExistingProject.md::TextFile::-1::1730327763::0::1::::<><>::
+::res://addons/maaacks_credits_scene/installer/::1730327763
+copy_confirmation_dialog.tscn::PackedScene::6506630939107533720::1730327763::0::1::::<><>::
+delete_examples_confirmation_dialog.tscn::PackedScene::1486575449804542269::1730327763::0::1::::<><>::
+delete_examples_short_confirmation_dialog.tscn::PackedScene::8971940147153825926::1730327763::0::1::::<><>::
+destination_dialog.tscn::PackedScene::5524076666757777413::1730327763::0::1::::<><>::
+play_opening_confirmation_dialog.tscn::PackedScene::4772355121568732055::1730327763::0::1::::<><>::
+::res://addons/scenes/::1730327763
+::res://addons/scenes/credits/::1730345394
+credits.gd::GDScript::-1::1730327763::0::1::::<>Credits<>::
+credits.tscn::PackedScene::1366935501742092764::1730345394::0::1::::<><>::uid://t2dui8ppm3a4::::res://addons/maaacks_credits_scene/base/scenes/credits/credits.tscn<>res://addons/scenes/credits/credits.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf
+::res://addons/scenes/end_credits/::1730345394
+end_credits.gd::GDScript::-1::1730344533::0::1::::<>Credits<>::
+end_credits.tscn::PackedScene::1729387719302833110::1730345394::0::1::::<><>::uid://tqfh0tnfy2hs::::res://addons/scenes/credits/credits.tscn<>res://addons/scenes/end_credits/end_credits.gd<>uid://bkcsjsk2ciff::::res://addons/maaacks_credits_scene/base/scenes/music_players/background_music_player.tscn<>res://addons/maaacks_credits_scene/base/scripts/capture_focus.gd
+::res://audios/::1730347003
+An Ugly Heart But It does Beats.mp3::AudioStreamMP3::5336271397617758877::1730347002::1730347003::1::::<><>::
+moedaaudio.tscn::PackedScene::5244197458789357110::1730137262::0::1::::<><>::uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
+money-pickup-2-89563.mp3::AudioStreamMP3::7473184411680825039::1730137262::1730345506::1::::<><>::
+::res://cenas/::1730348598
+abelha.tscn::PackedScene::3522626296062440604::1730347080::0::1::::<><>::res://scripts/abelha.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://bg547smbjc2kl::::res://Missoes/abelha.png
+adrianoricardotscn.tscn::PackedScene::7005980740072432164::1730347079::0::1::::<><>::res://scripts/adrianoricardotscn.gd<>uid://ll2swwisnd8x::::res://Missoes/adriano-ricardo(1).png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
+caixa_dialogo.tscn::PackedScene::3019450391415330737::1730137262::0::1::::<><>::res://scripts/caixa_dialogo.gd<>uid://dgsjfonvd0q1i::::res://Dialogo/dialogue_box.png<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
+conceicao.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+Conceicao.tscn::PackedScene::6429060544813935061::1730348463::0::1::::<><>::res://cenas/conceicao.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_conceicao.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://c620qj7tocqxg::::res://cenas/adrianoricardotscn.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://wb423mfkrysm::::res://carteira.tscn
+fones.tscn::PackedScene::6950893611671032851::1730347080::0::1::::<><>::res://scripts/coletavel.gd<>uid://cl7mudrnvpahg::::res://novos sprites/fones de ouvido.png
+gaybriel.tscn::PackedScene::4513649198012742788::1730347080::0::1::::<><>::res://scripts/gaybriel.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://cagq2aclb2clf::::res://Missoes/gabriel.png
+gerente_interacao.tscn::PackedScene::6757341566358151971::1730137262::0::1::::<><>::res://scripts/gerente_interacao.gd<>uid://d3hdid8ri5ej0::::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/PixeloidSans-Bold.ttf
+interação_area.tscn::PackedScene::3319236571976409988::1730336131::0::1::::<><>::res://scripts/interação_area.gd
+inventario.tscn::PackedScene::4443942548461640222::1730336131::0::1::::<><>::res://scripts/inventario.gd<>uid://b52v8blf7fhox::::res://novos sprites/inventario/inventario-slot (2).png<>uid://d1or58y6vxerc::::res://cenas/slot.tscn
+Jabaquara.tscn::PackedScene::414391777353535178::1730348386::0::1::::<><>::res://cenas/metro.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://xyv130iwclhk::::res://Missoes/npcteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_manager.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://ct1b01s28r2p1::::res://cenas/moeda.tscn<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://n2yukhlsyt6n::::res://cenas/pendrive.tscn<>uid://7svv4eqxdcxc::::res://inventario/itens/pendrive.tres<>uid://xroc54ie8efr::::res://chocolate.tscn
+metro.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+milesimoteste.tscn::PackedScene::3429778145947638137::1730347081::0::1::::<><>::res://scripts/milesimoteste.gd<>uid://bn3v682lhni1q::::res://sprite aleatorio.png<>uid://286yr5bywa6n::::res://inventario/inventarioJogador.tres
+moeda.tscn::PackedScene::6160209974639899132::1730347079::0::1::::<><>::uid://bpyy4xlcrkrkd::::res://novos sprites/coin - Copia.png<>res://Missoes/moeda.gd<>uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
+moeda_npva.tscn::PackedScene::8819543835257522859::1730348403::0::1::::<><>::res://scripts/moeda_npva.gd<>uid://bpyy4xlcrkrkd::::res://novos sprites/coin - Copia.png<>uid://deqcixi2tayr4::::res://audios/money-pickup-2-89563.mp3
+pendrive.tscn::PackedScene::969686626930470391::1730341235::0::1::::<><>::uid://cxadaaa7yy6hm::::res://cenas/sla.tscn<>uid://cji77847c5sa1::::res://novos sprites/pendrive da miyuki.png
+penso(1).png::CompressedTexture2D::8028511090314955484::1730345394::1730345507::1::::<><>::
+penso.tscn::PackedScene::8762292951781803988::1730347079::0::1::::<><>::res://scripts/penso.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://x6kn3p4ulsgu::::res://Missoes/penso(1).png
+porta.tscn::PackedScene::909469687450943951::1730137262::0::1::::<><>::uid://bux2ro7iv8ga4::::res://novos sprites/sprite porta.png
+praca_da_arvore.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+Praca_da_Arvore.tscn::PackedScene::1707592475207406307::1730348598::0::1::::<><>::res://cenas/praca_da_arvore.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_pracadaarvore.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://bqgne1lvat6iy::::res://cenas/abelha.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://bgrfmwpftis5u::::res://garrafa.tscn
+santa_cruz.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+Santa_Cruz.tscn::PackedScene::6112996879835612765::1730348537::0::1::::<><>::res://cenas/santa_cruz.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_santacruz.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://dicrcysm5l3hh::::res://cenas/shun.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://bgs65twouuqw::::res://livro.tscn<>uid://dsytfnb0ofgfh::::res://guardachuva.tscn
+sao_judas.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+Sao_Judas.tscn::PackedScene::5944653360453527317::1730347512::0::1::::<><>::res://cenas/sao_judas.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_saojudas.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dw3rxjst1p4om::::res://cenas/penso.tscn<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://c6bcg42cs0uvr::::res://cenas/fones.tscn<>uid://xdmpnixbuq2y::::res://inventario/itens/fones.tres<>uid://cxadaaa7yy6hm::::res://cenas/sla.tscn
+saude.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+Saude.tscn::PackedScene::7753861691253134565::1730347689::0::1::::<><>::res://cenas/saude.gd<>uid://dwwl2cpb0gp6a::::res://cenas/transição.tscn<>uid://bv0p50semc7iq::::res://fundo cidade/1.png<>uid://bjt2uu5twuwmo::::res://fundo cidade/2.png<>uid://dmiv1xwwk2qi5::::res://fundo cidade/3.png<>uid://bw3eybephss0t::::res://fundo cidade/nuvens (1).png<>uid://bia6jx3ios0u1::::res://fundo cidade/4.png<>uid://7wky2ptbcjlx::::res://fundo cidade/5.png<>uid://df3sarvcy7d7o::::res://scripts/VAGAO SUPREMO 480x96.png<>uid://ckqt8br7tb601::::res://novos sprites/porta fechada 64x64.png<>uid://bo4n7em8jy6w8::::res://cenas/milesimoteste.tscn<>uid://cxrnjkm5lwwcs::::res://novos sprites/sprite tvzinha 1.png<>res://scripts/canvas_layer.gd<>uid://b4kxc4xnd6rny::::res://cenas/inventario.tscn<>res://scripts/hud_saude.gd<>uid://dn4fj3vg6u3oc::::res://fonte/RevMiniPixel.ttf<>uid://b5kpe4eeytume::::res://cenas/gaybriel.tscn<>uid://dlkodmmc8t5tv::::res://novos sprites/icone_moeda.png<>uid://dxwiul1d13kt4::::res://cenas/moeda_npva.tscn<>uid://btxonpebqhs3y::::res://meia.tscn
+shun.tscn::PackedScene::7725938605109184541::1730347080::0::1::::<><>::res://scripts/shun.gd<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn<>uid://cr0tvlwjo4j4n::::res://Missoes/shun(1).png
+sla.tscn::PackedScene::6387366923526231350::1730347431::0::1::::<><>::res://scripts/coletavel.gd<>uid://cpj7r74b42nmd::::res://novos sprites/inventario/kit-faca(1).png<>uid://bqfgyv1o6ama0::::res://inventario/itens/kit-faca.tres
+slot.tscn::PackedScene::9014160808702489916::1730327615::0::1::::<><>::res://scripts/slot.gd<>uid://be0j1ibl7apy::::res://novos sprites/inventario/inventario-slot.png
+tela_de_dialogo.tscn::PackedScene::445366419721001653::1730137262::0::1::::<><>::
+tela_inicial.tscn::PackedScene::1105774542530251870::1730347081::0::1::::<><>::res://scripts/tela_inicial.gd<>uid://bltfh5g75f71b::::res://novos sprites/city 3/1.png<>uid://dobmvfen3on5h::::res://novos sprites/city 3/2.png<>uid://dgxxnw05mjmhe::::res://novos sprites/city 3/3.png<>uid://4nur0kj5512b::::res://novos sprites/city 3/4.png<>uid://ccbjexsb4gian::::res://novos sprites/city 3/5.png<>uid://bsk5f8vppn4m2::::res://tema_botaol.tres
+title_screen.tscn::PackedScene::8634297270017125801::1730137262::0::1::::<><>::uid://bltfh5g75f71b::::res://novos sprites/city 3/1.png<>uid://dobmvfen3on5h::::res://novos sprites/city 3/2.png<>uid://dgxxnw05mjmhe::::res://novos sprites/city 3/3.png<>uid://4nur0kj5512b::::res://novos sprites/city 3/4.png<>uid://ccbjexsb4gian::::res://novos sprites/city 3/5.png<>uid://dr7yt32biuiym::::res://novos sprites/city 3/botão jogar (1).png
+transição.gdshader::Shader::-1::1730328100::0::1::::<><>::
+transição.tscn::PackedScene::8749549153359058554::1730344541::0::1::::<><>::res://cenas/transição.gdshader
+::res://Dialogo/::1730345507
+dialogue_box.png::CompressedTexture2D::7618110050753510420::1730137262::1730345507::1::::<><>::
+::res://fonte/::1730345506
+RevMiniPixel.ttf::FontFile::8131905133759988702::1730137262::1730345506::1::::<><>::
+::res://Fontes/::1730137262
+::res://Fontes/Pixeloid_Font_0_5/::1730137262
+License.txt::TextFile::-1::1730137262::0::1::::<><>::
+::res://Fontes/Pixeloid_Font_0_5/OpenType (.otf)/::1730345506
+PixeloidMono.otf::FontFile::843003584760038458::1730137262::1730345506::1::::<><>::
+PixeloidSans-Bold.otf::FontFile::4775964186688829854::1730137262::1730345506::1::::<><>::
+PixeloidSans.otf::FontFile::2376499605364236877::1730137262::1730345506::1::::<><>::
+::res://Fontes/Pixeloid_Font_0_5/TrueType (.ttf)/::1730345506
+PixeloidMono.ttf::FontFile::8892654703119835316::1730137262::1730345506::1::::<><>::
+PixeloidSans-Bold.ttf::FontFile::9139196963885040043::1730137262::1730345506::1::::<><>::
+PixeloidSans.ttf::FontFile::7385439552490578873::1730137262::1730345506::1::::<><>::
+::res://Fontes/Pixeloid_Font_0_5/Web Open Font Format (.woff)/::1730345505
+PixeloidMono.woff::FontFile::8514949162658376017::1730137262::1730345505::1::::<><>::
+PixeloidMono.woff2::FontFile::1676296453293550950::1730137262::1730345505::1::::<><>::
+PixeloidSans-Bold.woff::FontFile::1844417185619349051::1730137262::1730345505::1::::<><>::
+PixeloidSans-Bold.woff2::FontFile::75777108004429953::1730137262::1730345505::1::::<><>::
+PixeloidSans.woff::FontFile::9179620376941761528::1730137262::1730345505::1::::<><>::
+PixeloidSans.woff2::FontFile::7156756654351556485::1730137262::1730345505::1::::<><>::
+::res://fundo cidade/::1730345507
+1.png::CompressedTexture2D::3912961513740046064::1730137262::1730345507::1::::<><>::
+2.png::CompressedTexture2D::3059019626149940446::1730137262::1730345507::1::::<><>::
+3.png::CompressedTexture2D::8019365927294566182::1730137262::1730345507::1::::<><>::
+4.png::CompressedTexture2D::2949830983392770710::1730137262::1730345507::1::::<><>::
+5.png::CompressedTexture2D::2292110778154952433::1730137262::1730345507::1::::<><>::
+nuvens (1).png::CompressedTexture2D::3988663607262453261::1730137262::1730345507::1::::<><>::
+segurador 480x160.png::CompressedTexture2D::5127150798991011172::1730137262::1730345507::1::::<><>::
+::res://inventario/::1730345519
+inventario.gd::GDScript::-1::1730341235::0::1::::Inventario<>Resource<>::
+inventarioJogador.tres::Resource/Inventario::1965149269259783035::1730345519::0::1::::<><>::res://inventario/itensinventario.gd<>res://inventario/inventario.gd
+itensinventario.gd::GDScript::-1::1730313863::0::1::::ItensInventario<>Resource<>::
+::res://inventario/itens/::1730348463
+carteira.tres::Resource/ItensInventario::2349713189602227341::1730348463::0::1::::<><>::res://inventario/itensinventario.gd<>uid://orlq8m880gb8::::res://novos sprites/inventario/carteira.png
+chocolate.tres::Resource/ItensInventario::2723806417526178752::1730137262::0::1::::<><>::res://inventario/itensinventario.gd<>uid://dkdddscoas0cr::::res://novos sprites/inventario/chocolate (2).png
+fones.tres::Resource/ItensInventario::1621292623967838974::1730341235::0::1::::<><>::res://inventario/itensinventario.gd<>uid://cl7mudrnvpahg::::res://novos sprites/fones de ouvido.png
+garrafa.tres::Resource/ItensInventario::8265581560368040034::1730137262::0::1::::<><>::res://inventario/itensinventario.gd<>uid://ch3u02nae4pkk::::res://novos sprites/inventario/garrafa-de-agua (2).png
+guarda-chuva.tres::Resource/ItensInventario::6010142172172499066::1730137262::0::1::::<><>::res://inventario/itensinventario.gd<>uid://c5ujmttacmbrf::::res://novos sprites/inventario/guarda-chuva(3).png
+kit-faca.tres::Resource/ItensInventario::3520172375515038457::1730137262::0::1::::<><>::res://inventario/itensinventario.gd<>uid://cpj7r74b42nmd::::res://novos sprites/inventario/kit-faca(1).png
+livro.tres::Resource/ItensInventario::8784684398125012859::1730137262::0::1::::<><>::res://inventario/itensinventario.gd<>uid://b6jqehl22yx1d::::res://novos sprites/inventario/livro(3).png
+meia.tres::Resource/ItensInventario::8431326956891381806::1730137262::0::1::::<><>::res://inventario/itensinventario.gd<>uid://egep284gksje::::res://novos sprites/inventario/meia (2).png
+pendrive.tres::Resource/ItensInventario::2284515884624406176::1730341235::0::1::::<><>::res://inventario/itensinventario.gd<>uid://cji77847c5sa1::::res://novos sprites/pendrive da miyuki.png
+::res://Missoes/::1730347079
+abelha.png::CompressedTexture2D::2871303980353800971::1730345394::1730345507::1::::<><>::
+adriano-ricardo(1).png::CompressedTexture2D::796458128295449741::1730345394::1730345507::1::::<><>::
+gabriel.png::CompressedTexture2D::4786247325822055115::1730345394::1730345507::1::::<><>::
+miyuki.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+miyuki.png::CompressedTexture2D::9038873325166224246::1730341238::1730345507::1::::<><>::
+miyuki.tscn::PackedScene::1149348684186089848::1730344541::0::1::::<><>::res://Missoes/miyuki.gd<>uid://d11q6ncldgmta::::res://Missoes/miyuki.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
+moeda.gd::GDScript::-1::1730341238::0::1::::<>Area2D<>::
+npcteste.gd::GDScript::-1::1730346224::0::1::::<>Node2D<>::
+npcteste.tscn::PackedScene::1665211466928691284::1730347078::0::1::::<><>::res://Missoes/npcteste.gd<>uid://d11q6ncldgmta::::res://Missoes/miyuki.png<>uid://bnj4luwe8p8ds::::res://cenas/interação_area.tscn
+pendrive_missao.gd::GDScript::-1::1730341238::0::1::::<>Area2D<>::
+pendrive_missao.tscn::PackedScene::4630486837773143091::1730344541::0::1::::<><>::res://Missoes/pendrive_missao.gd<>uid://cji77847c5sa1::::res://novos sprites/pendrive da miyuki.png
+penso(1).png::CompressedTexture2D::1678970994469703840::1730345394::1730345507::1::::<><>::
+shun(1).png::CompressedTexture2D::6018852889790140147::1730345394::1730345507::1::::<><>::
+::res://nextstation/::1730345515
+1-tela.jpg::CompressedTexture2D::7259760435888032341::1730328101::1730345508::1::::<><>::
+2-tela.jpg::CompressedTexture2D::9107696658515945577::1730328101::1730345508::1::::<><>::
+3-tela.jpg::CompressedTexture2D::3203536865483695973::1730328101::1730345509::1::::<><>::
+4-tela.jpg::CompressedTexture2D::7172338107031048746::1730328101::1730345511::1::::<><>::
+5-tela.jpg::CompressedTexture2D::1906257567994051792::1730328101::1730345510::1::::<><>::
+6-tela.jpg::CompressedTexture2D::6017871933490755768::1730328101::1730345515::1::::<><>::
+adriano.jpeg::CompressedTexture2D::3971632694234674990::1730328101::1730345509::1::::<><>::
+e.png::CompressedTexture2D::8910643144232372501::1730328101::1730345508::1::::<><>::
+espaco.png::CompressedTexture2D::837139632283957910::1730328101::1730345508::1::::<><>::
+gabriel.jpeg::CompressedTexture2D::5856513738471346249::1730328101::1730345508::1::::<><>::
+i.png::CompressedTexture2D::8468977932820288204::1730328101::1730345508::1::::<><>::
+imagem-inicial.png::CompressedTexture2D::6379486721335836891::1730328101::1730345509::1::::<><>::
+julia.png::CompressedTexture2D::230572736981595108::1730328101::1730345508::1::::<><>::
+logo.png::CompressedTexture2D::1724829082802522462::1730328101::1730345460::1::::<><>::
+luana.jpeg::CompressedTexture2D::9144893925568966191::1730328101::1730345460::1::::<><>::
+manual-wallpaper.jpg::CompressedTexture2D::5641943203458956666::1730328101::1730345509::1::::<><>::
+setinhas.png::CompressedTexture2D::8985768966190682825::1730328101::1730345458::1::::<><>::
+trem.png::CompressedTexture2D::6358736255495387661::1730328101::1730345512::1::::<><>::
+wasd.png::CompressedTexture2D::4600182620448270408::1730328101::1730345508::1::::<><>::
+::res://novos sprites/::1730345508
+assento comum 1.png::CompressedTexture2D::278250738949588543::1730137262::1730345508::1::::<><>::
+assento comum 2.png::CompressedTexture2D::7761128782154612499::1730137262::1730345508::1::::<><>::
+assento comum 3.png::CompressedTexture2D::8886225371611901027::1730137262::1730345508::1::::<><>::
+assento comum 4.png::CompressedTexture2D::4143377328632891510::1730137262::1730345508::1::::<><>::
+assento comum 5.png::CompressedTexture2D::344298797118746240::1730137262::1730345508::1::::<><>::
+assento comum.png::CompressedTexture2D::8727214372186300492::1730137262::1730345508::1::::<><>::
+assento preferencial 1.png::CompressedTexture2D::8199100377320074079::1730137262::1730345508::1::::<><>::
+assento preferencial 2.png::CompressedTexture2D::4583131016401807236::1730137262::1730345508::1::::<><>::
+assento preferencial 3.png::CompressedTexture2D::3511261129981241215::1730137262::1730345508::1::::<><>::
+assento preferencial 4.png::CompressedTexture2D::884101947650893411::1730137262::1730345508::1::::<><>::
+assento preferencial 5.png::CompressedTexture2D::2656205609343510878::1730137262::1730345508::1::::<><>::
+assento preferencial 6.png::CompressedTexture2D::8706870873246045393::1730137262::1730345506::1::::<><>::
+assento preferencial 7.png::CompressedTexture2D::6495787191349698886::1730137262::1730345506::1::::<><>::
+assento preferencial.png::CompressedTexture2D::1013831948989255664::1730137262::1730345506::1::::<><>::
+coin - Copia.png::CompressedTexture2D::3490308625354562043::1730137262::1730345506::1::::<><>::
+coin.png::CompressedTexture2D::841763457665135666::1730137262::1730345506::1::::<><>::
+fones de ouvido.png::CompressedTexture2D::5611743239776805532::1730341235::1730345506::1::::<><>::
+icone_moeda.png::CompressedTexture2D::7952839152872309115::1730137262::1730345506::1::::<><>::
+pendrive da miyuki.png::CompressedTexture2D::5423057850862144306::1730341235::1730345506::1::::<><>::
+porta fechada 64x64.png::CompressedTexture2D::5508972482157331936::1730137262::1730345506::1::::<><>::
+porta fechada.png::CompressedTexture2D::7134373182154516547::1730137262::1730345506::1::::<><>::
+sprite porta.png::CompressedTexture2D::3839348747251695117::1730137262::1730345506::1::::<><>::
+sprite tvzinha 1.png::CompressedTexture2D::6423085131080878286::1730137262::1730345506::1::::<><>::
+::res://novos sprites/city 3/::1730345507
+1.png::CompressedTexture2D::3198038813023348477::1730137262::1730345506::1::::<><>::
+2.png::CompressedTexture2D::8144736614775629319::1730137262::1730345506::1::::<><>::
+3.png::CompressedTexture2D::7629296702918544810::1730137262::1730345506::1::::<><>::
+4.png::CompressedTexture2D::2063559403639445487::1730137262::1730345506::1::::<><>::
+5.png::CompressedTexture2D::4915838264454811469::1730137262::1730345506::1::::<><>::
+6.png::CompressedTexture2D::3966453860328235121::1730137262::1730345506::1::::<><>::
+7.png::CompressedTexture2D::5383073879802026513::1730137262::1730345507::1::::<><>::
+botão créditos.png::CompressedTexture2D::9193468249088013575::1730137262::1730345506::1::::<><>::
+botão jogar (1).png::CompressedTexture2D::8420025131386800220::1730137262::1730345506::1::::<><>::
+botão jogar (2).png::CompressedTexture2D::44107588608475827::1730137262::1730345506::1::::<><>::
+botão jogar.png::CompressedTexture2D::6674329880928274492::1730137262::1730345506::1::::<><>::
+botão sair.png::CompressedTexture2D::2302874632324623945::1730137262::1730345506::1::::<><>::
+trem.png::CompressedTexture2D::7511118176088195674::1730137262::1730345506::1::::<><>::
+::res://novos sprites/fundo cidade/::1730345507
+1.png::CompressedTexture2D::3912961513740046064::1730137262::1730345507::1::::<><>::
+2.png::CompressedTexture2D::3059019626149940446::1730137262::1730345507::1::::<><>::
+3.png::CompressedTexture2D::8019365927294566182::1730137262::1730345507::1::::<><>::
+4.png::CompressedTexture2D::2949830983392770710::1730137262::1730345507::1::::<><>::
+5.png::CompressedTexture2D::2292110778154952433::1730137262::1730345507::1::::<><>::
+nuvens (1).png::CompressedTexture2D::3988663607262453261::1730137262::1730345507::1::::<><>::
+segurador 480x160.png::CompressedTexture2D::5127150798991011172::1730137262::1730345507::1::::<><>::
+::res://novos sprites/fundo cidade/city 3/::1730345507
+1.png::CompressedTexture2D::9221745601403759739::1730328101::1730345507::1::::<><>::
+2.png::CompressedTexture2D::4334634033025385566::1730328101::1730345507::1::::<><>::
+3.png::CompressedTexture2D::3474612934007157162::1730328101::1730345507::1::::<><>::
+4.png::CompressedTexture2D::3625076492555553968::1730328101::1730345507::1::::<><>::
+5.png::CompressedTexture2D::4217120555315266682::1730328101::1730345507::1::::<><>::
+6.png::CompressedTexture2D::9122048644453483832::1730328101::1730345507::1::::<><>::
+7.png::CompressedTexture2D::1220315621226741932::1730328101::1730345507::1::::<><>::
+::res://novos sprites/inventario/::1730345507
+carteira.png::CompressedTexture2D::1018436445727044435::1730137262::1730345507::1::::<><>::
+chocolate (2).png::CompressedTexture2D::7867532078228564233::1730137262::1730345507::1::::<><>::
+garrafa-de-agua (2).png::CompressedTexture2D::5323226272888468354::1730137262::1730345506::1::::<><>::
+guarda-chuva(3).png::CompressedTexture2D::6920363141368208779::1730137262::1730345506::1::::<><>::
+inventario-slot (2).png::CompressedTexture2D::4549158250026987543::1730137262::1730345506::1::::<><>::
+inventario-slot.png::CompressedTexture2D::79981729645509606::1730137262::1730345507::1::::<><>::
+kit-faca(1).png::CompressedTexture2D::5846228449639934423::1730137262::1730345506::1::::<><>::
+livro(3).png::CompressedTexture2D::4581833237238633827::1730137262::1730345506::1::::<><>::
+meia (2).png::CompressedTexture2D::293412766391186574::1730137262::1730345506::1::::<><>::
+::res://scripts/::1730346402
+abelha.gd::GDScript::-1::1730345921::0::1::::<>Node2D<>::
+adrianoricardotscn.gd::GDScript::-1::1730345977::0::1::::<>Node2D<>::
+animated_sprite_2d.gd::GDScript::-1::1730137262::0::1::::<>AnimatedSprite2D<>::
+assento_7.gd::GDScript::-1::1730137262::0::1::::<>CollisionShape2D<>::
+assento_comum.gd::GDScript::-1::1730137262::0::1::::assento<>Sprite2D<>::
+caixa_dialogo.gd::GDScript::-1::1730313863::0::1::::<>MarginContainer<>::
+camera_2d.gd::GDScript::-1::1730137262::0::1::::<>Camera2D<>::
+canvas_layer.gd::GDScript::-1::1730313863::0::1::::<>CanvasLayer<>::
+character_body_2d.gd::GDScript::-1::1730137262::0::1::::<>CharacterBody2D<>::
+coletavel.gd::GDScript::-1::1730345394::0::1::::coletavel<>Area2D<>::
+FOXSPRITESHEET.png::CompressedTexture2D::4491872179048202739::1730341235::1730345506::1::::<><>::
+gaybriel.gd::GDScript::-1::1730345921::0::1::::<>Node2D<>::
+gerentedialogo.gd::GDScript::-1::1730313863::0::1::::<>Node<>::
+Gerentemissaomiyuki.gd::GDScript::-1::1730341238::0::1::::<>Node<>::
+gerentemissaosenhora.gd::GDScript::-1::1730341238::0::1::::<>Node<>::
+gerente_interacao.gd::GDScript::-1::1730345394::0::1::::<>Node2D<>::
+global.gd::GDScript::-1::1730137262::0::1::::<>Camera2D<>::
+hud_conceicao.gd::GDScript::-1::1730345394::0::1::::<>Control<>::
+hud_manager.gd::GDScript::-1::1730345394::0::1::::<>Control<>::
+hud_pracadaarvore.gd::GDScript::-1::1730345394::0::1::::<>Control<>::
+hud_santacruz.gd::GDScript::-1::1730345394::0::1::::<>Control<>::
+hud_saojudas.gd::GDScript::-1::1730345394::0::1::::<>Control<>::
+hud_saude.gd::GDScript::-1::1730345394::0::1::::<>Control<>::
+interação_area.gd::GDScript::-1::1730137262::0::1::::InteraçãoArea<>Area2D<>::
+inventario.gd::GDScript::-1::1730341235::0::1::::<>Control<>::
+metro.gd::GDScript::-1::1730313863::0::1::::<>Node2D<>::
+milesimoteste.gd::GDScript::-1::1730341235::0::1::::<>CharacterBody2D<>::
+moeda_npva.gd::GDScript::-1::1730345394::0::1::::<>Area2D<>::
+parallax_background.gd::GDScript::-1::1730137262::0::1::::<>Node2D<>::
+parallax_layer.gd::GDScript::-1::1730137262::0::1::::<>Parallax2D<>::
+penso.gd::GDScript::-1::1730346402::0::1::::<>Node2D<>::
+shun.gd::GDScript::-1::1730346335::0::1::::<>Node2D<>::
+slot.gd::GDScript::-1::1730313863::0::1::::<>Panel<>::
+tela_inicial.gd::GDScript::-1::1730335896::0::1::::<>Control<>::
+tudo.gd::GDScript::-1::1730341238::0::1::::<>Node<>::
+VAGAO SUPREMO 480x96.png::CompressedTexture2D::7569102677714985562::1730137262::1730345506::1::::<><>::

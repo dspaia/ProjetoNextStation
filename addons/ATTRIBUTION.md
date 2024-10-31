@@ -3,19 +3,24 @@
 
 
 
-### Creators
+### Criadores
 
 Adriano Monteagudo
 Gabriel Paiva
 Júlia Calixto
-Luana Melo
+Luana de Melo
 
 
 
-## Tools
+## Ferramentas
 
 #### Godot
- 
+#### Piskel
+
+## Agradecimentos
+
+Sscary - sprites
+Pix - música
 
 
 #### Godot Credits Scene

@@ -4,14 +4,14 @@ extends Node2D
 @export var jogador = CharacterBody2D
 
 const fala_inicial: Array[String] = [
-	"Oi, tudo bom?",
-	"Derrubei algumas das minhas moedas no metrô",
-	"É impressionante!"
+	"Meu carro quebrou, estou indo para o trabalho de metrô",
+	"É impressionante!",
+	"Ainda por cima, derrubei minhas moedas no chão..."
 ]
 const fala_final: Array[String] = [
 	"Você recuperou minhas moedas!",
-	"muito obrigada, pode ficar com elas!",
-	"Tome cuidado porque o tempo nas estações vão diminuindo."
+	"Obrigada. Pode ficar, não preciso delas.",
+	"Tome cuidado. O tempo por aqui passa cada vez mais rápido."
 ]
 
 func _ready() -> void:

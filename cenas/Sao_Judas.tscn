@@ -1,8 +1,8 @@
-[gd_scene load_steps=35 format=4 uid="uid://cqxvtpusogr86"]
+[gd_scene load_steps=41 format=4 uid="uid://cqxvtpusogr86"]
 
 [ext_resource type="Script" path="res://cenas/sao_judas.gd" id="1_6o7lt"]
 [ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_lys7d"]
-[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="3_osr8l"]
+[ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://fundo cidade/1.png" id="3_osr8l"]
 [ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_5a30o"]
 [ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_lsoyu"]
 [ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_gngqu"]
@@ -20,6 +20,8 @@
 [ext_resource type="PackedScene" uid="uid://dw3rxjst1p4om" path="res://cenas/penso.tscn" id="18_hwp2u"]
 [ext_resource type="PackedScene" uid="uid://dxwiul1d13kt4" path="res://cenas/moeda_npva.tscn" id="19_sqo4s"]
 [ext_resource type="PackedScene" uid="uid://c6bcg42cs0uvr" path="res://cenas/fones.tscn" id="20_kd42v"]
+[ext_resource type="Resource" uid="uid://xdmpnixbuq2y" path="res://inventario/itens/fones.tres" id="21_f8i2f"]
+[ext_resource type="PackedScene" uid="uid://cxadaaa7yy6hm" path="res://cenas/sla.tscn" id="22_gyou8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utahu"]
 texture = ExtResource("9_1pdcf")
@@ -219,6 +221,15 @@ size = Vector2(448, 56)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_27ns6"]
 size = Vector2(3, 72)
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ecitk"]
+size = Vector2(24.8689, 18.0086)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6up2i"]
+size = Vector2(14.3312, 14.3312)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bcxhu"]
+size = Vector2(11.686, 47.2088)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_k76nm"]
 atlas = ExtResource("13_lkqpl")
 region = Rect2(0, 0, 32, 32)
@@ -261,6 +272,10 @@ animations = [{
 "name": &"default",
 "speed": 0.25
 }]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5kjkl"]
+radius = 7.16562
+height = 22.7614
 
 [node name="metro" type="Node2D"]
 position = Vector2(-72, 0)
@@ -390,6 +405,54 @@ metadata/_edit_lock_ = true
 position = Vector2(1.5, 36)
 shape = SubResource("RectangleShape2D_27ns6")
 
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="colisões"]
+position = Vector2(342.685, 49.3163)
+shape = SubResource("RectangleShape2D_ecitk")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="colisões"]
+position = Vector2(226.771, 48.8948)
+shape = SubResource("RectangleShape2D_ecitk")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="colisões"]
+position = Vector2(110.646, 49.0475)
+shape = SubResource("RectangleShape2D_ecitk")
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="colisões"]
+position = Vector2(18.9678, 47.6303)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="colisões"]
+position = Vector2(87.2519, 47.6303)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="colisões"]
+position = Vector2(134.882, 48.0518)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="colisões"]
+position = Vector2(202.745, 47.6303)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="colisões"]
+position = Vector2(250.797, 48.0518)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="colisões"]
+position = Vector2(319.081, 48.4733)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="colisões"]
+position = Vector2(366.711, 47.2088)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="colisões"]
+position = Vector2(434.995, 47.2088)
+shape = SubResource("RectangleShape2D_6up2i")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="colisões"]
+position = Vector2(452.219, 72.4992)
+shape = SubResource("RectangleShape2D_bcxhu")
+
 [node name="tvzinha" type="AnimatedSprite2D" parent="."]
 position = Vector2(111.699, 16.0173)
 sprite_frames = SubResource("SpriteFrames_7rep4")
@@ -481,6 +544,12 @@ text = "Próxima Estação: Saúde"
 [node name="npcrandom" parent="." instance=ExtResource("18_hwp2u")]
 position = Vector2(256.276, 67.4411)
 
+[node name="StaticBody2D" type="StaticBody2D" parent="npcrandom"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="npcrandom/StaticBody2D"]
+position = Vector2(-0.842885, 0.843033)
+shape = SubResource("CapsuleShape2D_5kjkl")
+
 [node name="moeda" parent="." instance=ExtResource("19_sqo4s")]
 position = Vector2(330.461, 91.0455)
 scale = Vector2(0.615149, 0.615149)
@@ -526,7 +595,11 @@ position = Vector2(381.042, 80.0863)
 scale = Vector2(0.615149, 0.615149)
 
 [node name="coletavel" parent="." instance=ExtResource("20_kd42v")]
-position = Vector2(338.049, 85.1444)
+position = Vector2(335.941, 85.1444)
+itemRes = ExtResource("21_f8i2f")
+
+[node name="kit faca" parent="." instance=ExtResource("22_gyou8")]
+position = Vector2(70.3917, 66.1766)
 
 [connection signal="timeout" from="fade_in" to="." method="_on_tempo_timeout"]
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]

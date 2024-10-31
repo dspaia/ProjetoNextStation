@@ -32,5 +32,5 @@ sprite_frames = SubResource("SpriteFrames_cpnwk")
 "nome_da_ação" = "Interagir"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="interação_area"]
-position = Vector2(-1, 5)
+position = Vector2(0, 4)
 shape = SubResource("CircleShape2D_dkh8j")

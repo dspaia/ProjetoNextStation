@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://p0v7eutb3ry1"]
+[gd_scene load_steps=9 format=3 uid="uid://p0v7eutb3ry1"]
 
 [ext_resource type="Script" path="res://scripts/tela_inicial.gd" id="1_f3pci"]
 [ext_resource type="Texture2D" uid="uid://bltfh5g75f71b" path="res://novos sprites/city 3/1.png" id="2_pi0by"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://4nur0kj5512b" path="res://novos sprites/city 3/4.png" id="5_7mckn"]
 [ext_resource type="Texture2D" uid="uid://ccbjexsb4gian" path="res://novos sprites/city 3/5.png" id="6_7ipei"]
 [ext_resource type="Theme" uid="uid://bsk5f8vppn4m2" path="res://tema_botaol.tres" id="7_8bmkj"]
+[ext_resource type="Texture2D" uid="uid://53keqxobbpv4" path="res://logo2-removebg-preview.png" id="7_wtw86"]
 
 [node name="tela inicial" type="Control"]
 layout_mode = 3
@@ -63,6 +64,12 @@ autoscroll = Vector2(100, 0)
 position = Vector2(240, 105)
 scale = Vector2(0.837963, 0.837963)
 texture = ExtResource("6_7ipei")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(237, 47)
+scale = Vector2(0.257, 0.257)
+texture = ExtResource("7_wtw86")
 
 [node name="fundo" type="TextureRect" parent="."]
 layout_mode = 0
