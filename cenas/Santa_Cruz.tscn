@@ -1,13 +1,13 @@
-[gd_scene load_steps=34 format=4 uid="uid://ctdgfvkpn5lar"]
+[gd_scene load_steps=35 format=4 uid="uid://ctdgfvkpn5lar"]
 
 [ext_resource type="Script" path="res://cenas/santa_cruz.gd" id="1_h3xcf"]
 [ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_voyym"]
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="3_8uvyj"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="4_q8uws"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="5_4jwdp"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://novos sprites/fundo cidade/nuvens (1).png" id="6_5gh5b"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://novos sprites/fundo cidade/4.png" id="7_arcf0"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://novos sprites/fundo cidade/5.png" id="8_rxuqk"]
+[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_q8uws"]
+[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_4jwdp"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_5gh5b"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_arcf0"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_rxuqk"]
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_et81r"]
 [ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_f6sp2"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_4j88h"]
@@ -19,6 +19,7 @@
 [ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_eky8r"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_vs3iu"]
 [ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_sd4yo"]
+[ext_resource type="AudioStream" uid="uid://djqbempw1moeg" path="res://audios/som metro.mp3" id="20_tucpb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utahu"]
 texture = ExtResource("9_et81r")
@@ -496,6 +497,12 @@ scale = Vector2(0.595354, 0.595354)
 [node name="moeda4" parent="moeda" instance=ExtResource("19_sd4yo")]
 position = Vector2(91.0455, 70.8132)
 scale = Vector2(0.595354, 0.595354)
+
+[node name="som metro" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("20_tucpb")
+volume_db = -33.104
+autoplay = true
+parameters/looping = true
 
 [connection signal="timeout" from="fade_in" to="." method="_on_tempo_timeout"]
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]

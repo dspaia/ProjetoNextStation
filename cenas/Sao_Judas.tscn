@@ -1,13 +1,13 @@
-[gd_scene load_steps=34 format=4 uid="uid://cqxvtpusogr86"]
+[gd_scene load_steps=36 format=4 uid="uid://cqxvtpusogr86"]
 
 [ext_resource type="Script" path="res://cenas/sao_judas.gd" id="1_6o7lt"]
 [ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_lys7d"]
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="3_osr8l"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="4_5a30o"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="5_lsoyu"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://novos sprites/fundo cidade/nuvens (1).png" id="6_gngqu"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://novos sprites/fundo cidade/4.png" id="7_qf8xv"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://novos sprites/fundo cidade/5.png" id="8_cadec"]
+[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_5a30o"]
+[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_lsoyu"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_gngqu"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_qf8xv"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_cadec"]
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_1pdcf"]
 [ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_ykbpx"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_yby2i"]
@@ -19,6 +19,8 @@
 [ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_wk6wh"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_1sic2"]
 [ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_eagi7"]
+[ext_resource type="AudioStream" uid="uid://cmhcpb081juws" path="res://audios/saude.mp3" id="19_lntex"]
+[ext_resource type="AudioStream" uid="uid://djqbempw1moeg" path="res://audios/som metro.mp3" id="21_7s2w3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utahu"]
 texture = ExtResource("9_1pdcf")
@@ -479,6 +481,13 @@ theme_override_fonts/font = ExtResource("17_wk6wh")
 theme_override_font_sizes/font_size = 8
 text = "Próxima Estação: Saúde"
 
+[node name="saude" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("19_lntex")
+volume_db = -11.2
+
+[node name="proxima_estacao" type="Timer" parent="saude"]
+one_shot = true
+
 [node name="moeda" type="Node2D" parent="."]
 
 [node name="moeda" parent="moeda" instance=ExtResource("19_eagi7")]
@@ -497,5 +506,12 @@ scale = Vector2(0.595354, 0.595354)
 position = Vector2(91.0455, 70.8132)
 scale = Vector2(0.595354, 0.595354)
 
+[node name="som metro" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("21_7s2w3")
+volume_db = -33.104
+autoplay = true
+parameters/looping = true
+
 [connection signal="timeout" from="fade_in" to="." method="_on_tempo_timeout"]
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]
+[connection signal="timeout" from="saude/proxima_estacao" to="." method="_on_proxima_estacao_timeout"]

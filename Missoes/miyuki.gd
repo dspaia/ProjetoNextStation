@@ -2,6 +2,7 @@ extends Node2D
 
 @onready var interação_area: InteraçãoArea = $"interação_area"
 @export var jogador = CharacterBody2D
+@onready var pendrive = $"../pendrive"
 
 const fala_inicial: Array[String] = [
 	"Oh meu jovem",
@@ -27,5 +28,6 @@ func interagindo():
 	await Gerentedialogo.dialogo_acaba
 	
 func concluir_missao():
+	pendrive.coletado
 	Tudo.moeda = 3 
 	print("Moedas do jogador ajustadas para:", Tudo.moeda)

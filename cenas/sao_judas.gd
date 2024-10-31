@@ -5,13 +5,15 @@ extends Node2D
 @onready var transicao := $ColorRect
 @onready var animacao := $"transição/ColorRect/animaçao"
 @onready var mudar_cena := $fade_in/mudar_cena as Timer
+@onready var proxima_estacao := $saude/proxima_estacao
 
 func _ready() -> void:
 	$tvzinha.play()
 	$tvzinha2.play()
 	fade_in.start()
 	animacao.play("fade_out")
-
+	proxima_estacao.start()
+	$"som metro".play()
 	
 	
 
@@ -26,3 +28,8 @@ func _on_tempo_timeout() -> void:
 	
 func _on_fade_in_timeout() -> void:
 	animacao.play("fade_in")
+	$"som metro".stop()
+
+
+func _on_proxima_estacao_timeout() -> void:
+	$saude.play()

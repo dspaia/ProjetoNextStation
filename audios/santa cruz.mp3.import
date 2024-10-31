@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://qipxf712b4h0"
+path="res://.godot/imported/santa cruz.mp3-ec6b8a36e713aab5b80a7d5a4f0c731e.mp3str"
+
+[deps]
+
+source_file="res://audios/santa cruz.mp3"
+dest_files=["res://.godot/imported/santa cruz.mp3-ec6b8a36e713aab5b80a7d5a4f0c731e.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
