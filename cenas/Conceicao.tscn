@@ -3,11 +3,11 @@
 [ext_resource type="Script" path="res://cenas/conceicao.gd" id="1_8d4l4"]
 [ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_3n414"]
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="3_0m062"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="4_q8der"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="5_86g2a"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://novos sprites/fundo cidade/nuvens (1).png" id="6_wbfb1"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://novos sprites/fundo cidade/4.png" id="7_r2g0m"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://novos sprites/fundo cidade/5.png" id="8_sti0h"]
+[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_q8der"]
+[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_86g2a"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_wbfb1"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_r2g0m"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_sti0h"]
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_q5s4g"]
 [ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_1ac6u"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_l3r6g"]
@@ -16,9 +16,9 @@
 [ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_hcis2"]
 [ext_resource type="Script" path="res://scripts/hud_conceicao.gd" id="16_gvu6y"]
 [ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_4vce3"]
+[ext_resource type="PackedScene" uid="uid://c620qj7tocqxg" path="res://cenas/adrianoricardotscn.tscn" id="18_ab4ah"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_pgvre"]
-[ext_resource type="PackedScene" uid="uid://qm0utjip44si" path="res://Missoes/miyuki.tscn" id="19_06o2t"]
-[ext_resource type="PackedScene" uid="uid://b68bpaunvxiop" path="res://Missoes/pendrive_missao.tscn" id="19_ejbwy"]
+[ext_resource type="PackedScene" uid="uid://dxwiul1d13kt4" path="res://cenas/moeda_npva.tscn" id="19_872do"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uskl"]
 texture = ExtResource("9_q5s4g")
@@ -397,7 +397,7 @@ position = Vector2(343.95, 16.0173)
 sprite_frames = SubResource("SpriteFrames_fknab")
 
 [node name="fade_in" type="Timer" parent="."]
-wait_time = 59.0
+wait_time = 50.0
 
 [node name="fade_out" type="Timer" parent="fade_in"]
 wait_time = 3.0
@@ -478,13 +478,36 @@ theme_override_fonts/font = ExtResource("17_4vce3")
 theme_override_font_sizes/font_size = 8
 text = "Próxima Estação: São Judas"
 
-[node name="Miyuki" parent="." instance=ExtResource("19_06o2t")]
-position = Vector2(345.636, 71.6562)
+[node name="npcrandom" parent="." instance=ExtResource("18_ab4ah")]
+position = Vector2(268.078, 46.7873)
 
-[node name="pendrive_missao" parent="." instance=ExtResource("19_ejbwy")]
-light_mask = 31
-visibility_layer = 31
-position = Vector2(237.73, 78.4003)
+[node name="moeda10" parent="." instance=ExtResource("19_872do")]
+position = Vector2(245.317, 80.5078)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda11" parent="." instance=ExtResource("19_872do")]
+position = Vector2(264.285, 69.5486)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda12" parent="." instance=ExtResource("19_872do")]
+position = Vector2(231.829, 69.1271)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda13" parent="." instance=ExtResource("19_872do")]
+position = Vector2(143.312, 76.7143)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda14" parent="." instance=ExtResource("19_872do")]
+position = Vector2(308.122, 76.2928)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda15" parent="." instance=ExtResource("19_872do")]
+position = Vector2(303.064, 66.5981)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda16" parent="." instance=ExtResource("19_872do")]
+position = Vector2(324.139, 69.5486)
+scale = Vector2(0.615149, 0.615149)
 
 [connection signal="timeout" from="fade_in" to="." method="_on_fade_in_timeout"]
 [connection signal="timeout" from="fade_in/fade_out" to="." method="_on_fade_out_timeout"]

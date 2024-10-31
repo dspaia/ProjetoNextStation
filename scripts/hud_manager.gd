@@ -11,8 +11,8 @@ extends Control
 
 var minutos = 0
 var segundos = 0
-@export_range(0, 23) var default_minutos := 0  # Tempo inicial em minutos
-@export_range(0, 59) var default_segundos := 10  # Tempo inicial em segundos
+@export_range(0, 23) var default_minutos := 1  # Tempo inicial em minutos
+@export_range(0, 59) var default_segundos := 0  # Tempo inicial em segundos
 @export var scene_to_load: String = "res://cenas/conceicao"  # Caminho da nova cena
 
 # Chamado quando o nó entra na árvore da cena pela primeira vez
@@ -53,5 +53,6 @@ func end_game():
 	if segundos == 0 and minutos == 0:
 		
 		# Muda para a nova cena
+		
 		print("Mudando para a nova cena!")
 		get_tree().change_scene_to_file("res://cenas/Conceicao.tscn") # Altera a cena para a especificada

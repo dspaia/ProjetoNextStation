@@ -21,7 +21,7 @@ func area_nao_registrada(area = InteraçãoArea):
 
 func _process(_delta):
 	if area_ativa_interação.size() > 0 && pode_interagir:
-		area_ativa_interação.sort_custom(organizar_pela_distancia)
+		
 		label.text = texto_basico_interação + area_ativa_interação[0].nome_da_ação
 		label.global_position = area_ativa_interação[0].global_position
 		label.global_position.y -= 36 
@@ -33,10 +33,7 @@ func _process(_delta):
 
 
 
-func organizar_pela_distancia(area1, area2):
-	var area1_distancia = player.global_position.distance_to(area1.global_position)
-	var area2_distancia = player.global_position.distance_to(area2.global_position)
-	return area1_distancia > area2_distancia
+
 
 
 func _input(event):

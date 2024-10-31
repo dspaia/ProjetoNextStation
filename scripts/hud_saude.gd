@@ -12,7 +12,7 @@ extends Control
 var minutos = 0
 var segundos = 0
 @export_range(0, 23) var default_minutos := 0  # Tempo inicial em minutos
-@export_range(0, 59) var default_segundos := 10  # Tempo inicial em segundos
+@export_range(0, 59) var default_segundos := 30  # Tempo inicial em segundos
 @export var scene_to_load: String = "res://cenas/conceicao"  # Caminho da nova cena
 
 # Chamado quando o nó entra na árvore da cena pela primeira vez

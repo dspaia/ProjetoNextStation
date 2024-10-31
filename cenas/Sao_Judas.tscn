@@ -1,24 +1,25 @@
-[gd_scene load_steps=34 format=4 uid="uid://cqxvtpusogr86"]
+[gd_scene load_steps=35 format=4 uid="uid://cqxvtpusogr86"]
 
 [ext_resource type="Script" path="res://cenas/sao_judas.gd" id="1_6o7lt"]
 [ext_resource type="PackedScene" uid="uid://dwwl2cpb0gp6a" path="res://cenas/transição.tscn" id="2_lys7d"]
 [ext_resource type="Texture2D" uid="uid://bv0p50semc7iq" path="res://novos sprites/fundo cidade/1.png" id="3_osr8l"]
-[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://novos sprites/fundo cidade/2.png" id="4_5a30o"]
-[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://novos sprites/fundo cidade/3.png" id="5_lsoyu"]
-[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://novos sprites/fundo cidade/nuvens (1).png" id="6_gngqu"]
-[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://novos sprites/fundo cidade/4.png" id="7_qf8xv"]
-[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://novos sprites/fundo cidade/5.png" id="8_cadec"]
+[ext_resource type="Texture2D" uid="uid://bjt2uu5twuwmo" path="res://fundo cidade/2.png" id="4_5a30o"]
+[ext_resource type="Texture2D" uid="uid://dmiv1xwwk2qi5" path="res://fundo cidade/3.png" id="5_lsoyu"]
+[ext_resource type="Texture2D" uid="uid://bw3eybephss0t" path="res://fundo cidade/nuvens (1).png" id="6_gngqu"]
+[ext_resource type="Texture2D" uid="uid://bia6jx3ios0u1" path="res://fundo cidade/4.png" id="7_qf8xv"]
+[ext_resource type="Texture2D" uid="uid://7wky2ptbcjlx" path="res://fundo cidade/5.png" id="8_cadec"]
 [ext_resource type="Texture2D" uid="uid://df3sarvcy7d7o" path="res://scripts/VAGAO SUPREMO 480x96.png" id="9_1pdcf"]
 [ext_resource type="Texture2D" uid="uid://ckqt8br7tb601" path="res://novos sprites/porta fechada 64x64.png" id="10_ykbpx"]
 [ext_resource type="PackedScene" uid="uid://bo4n7em8jy6w8" path="res://cenas/milesimoteste.tscn" id="11_yby2i"]
-[ext_resource type="PackedScene" uid="uid://xyv130iwclhk" path="res://Missoes/npcteste.tscn" id="12_18bgt"]
 [ext_resource type="Texture2D" uid="uid://cxrnjkm5lwwcs" path="res://novos sprites/sprite tvzinha 1.png" id="13_lkqpl"]
 [ext_resource type="Script" path="res://scripts/canvas_layer.gd" id="14_6pkug"]
 [ext_resource type="PackedScene" uid="uid://b4kxc4xnd6rny" path="res://cenas/inventario.tscn" id="15_q5q5x"]
 [ext_resource type="Script" path="res://scripts/hud_saojudas.gd" id="16_3v4el"]
 [ext_resource type="FontFile" uid="uid://dn4fj3vg6u3oc" path="res://fonte/RevMiniPixel.ttf" id="17_wk6wh"]
 [ext_resource type="Texture2D" uid="uid://dlkodmmc8t5tv" path="res://novos sprites/icone_moeda.png" id="18_1sic2"]
-[ext_resource type="PackedScene" uid="uid://ct1b01s28r2p1" path="res://cenas/moeda.tscn" id="19_eagi7"]
+[ext_resource type="PackedScene" uid="uid://dw3rxjst1p4om" path="res://cenas/penso.tscn" id="18_hwp2u"]
+[ext_resource type="PackedScene" uid="uid://dxwiul1d13kt4" path="res://cenas/moeda_npva.tscn" id="19_sqo4s"]
+[ext_resource type="PackedScene" uid="uid://c6bcg42cs0uvr" path="res://cenas/fones.tscn" id="20_kd42v"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_utahu"]
 texture = ExtResource("9_1pdcf")
@@ -262,6 +263,7 @@ animations = [{
 }]
 
 [node name="metro" type="Node2D"]
+position = Vector2(-72, 0)
 scale = Vector2(2.37244, 2.37244)
 script = ExtResource("1_6o7lt")
 
@@ -388,9 +390,6 @@ metadata/_edit_lock_ = true
 position = Vector2(1.5, 36)
 shape = SubResource("RectangleShape2D_27ns6")
 
-[node name="npcrandom" parent="." instance=ExtResource("12_18bgt")]
-position = Vector2(371.769, 74.1852)
-
 [node name="tvzinha" type="AnimatedSprite2D" parent="."]
 position = Vector2(111.699, 16.0173)
 sprite_frames = SubResource("SpriteFrames_7rep4")
@@ -400,7 +399,7 @@ position = Vector2(343.95, 16.0173)
 sprite_frames = SubResource("SpriteFrames_7rep4")
 
 [node name="fade_in" type="Timer" parent="."]
-wait_time = 10.0
+wait_time = 40.0
 
 [node name="fade_out" type="Timer" parent="fade_in"]
 
@@ -479,23 +478,55 @@ theme_override_fonts/font = ExtResource("17_wk6wh")
 theme_override_font_sizes/font_size = 8
 text = "Próxima Estação: Saúde"
 
-[node name="moeda" type="Node2D" parent="."]
+[node name="npcrandom" parent="." instance=ExtResource("18_hwp2u")]
+position = Vector2(256.276, 67.4411)
 
-[node name="moeda" parent="moeda" instance=ExtResource("19_eagi7")]
-position = Vector2(222.556, 70.8132)
-scale = Vector2(0.595354, 0.595354)
+[node name="moeda" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(330.461, 91.0455)
+scale = Vector2(0.615149, 0.615149)
 
-[node name="moeda2" parent="moeda" instance=ExtResource("19_eagi7")]
-position = Vector2(148.37, 70.8132)
-scale = Vector2(0.595354, 0.595354)
+[node name="moeda2" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(316.973, 80.9293)
+scale = Vector2(0.615149, 0.615149)
 
-[node name="moeda3" parent="moeda" instance=ExtResource("19_eagi7")]
-position = Vector2(259.648, 70.8132)
-scale = Vector2(0.595354, 0.595354)
+[node name="moeda3" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(316.973, 67.4411)
+scale = Vector2(0.615149, 0.615149)
 
-[node name="moeda4" parent="moeda" instance=ExtResource("19_eagi7")]
-position = Vector2(91.0455, 70.8132)
-scale = Vector2(0.595354, 0.595354)
+[node name="moeda4" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(333.833, 64.069)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda5" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(343.95, 74.1852)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda6" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(343.95, 84.3014)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda7" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(357.438, 84.3014)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda8" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(357.438, 74.1852)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda9" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(370.926, 74.1852)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda10" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(370.926, 84.3014)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="moeda11" parent="." instance=ExtResource("19_sqo4s")]
+position = Vector2(381.042, 80.0863)
+scale = Vector2(0.615149, 0.615149)
+
+[node name="coletavel" parent="." instance=ExtResource("20_kd42v")]
+position = Vector2(338.049, 85.1444)
 
 [connection signal="timeout" from="fade_in" to="." method="_on_tempo_timeout"]
 [connection signal="timeout" from="HUB/control/clock_timer" to="HUB/control" method="_on_clock_timer_timeout"]

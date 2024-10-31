@@ -4,14 +4,14 @@ extends Node2D
 @export var jogador = CharacterBody2D
 
 const fala_inicial: Array[String] = [
-	"Oh meu jovem",
+	"Oi, tudo bom?",
 	"Derrubei algumas das minhas moedas no metrô",
-	"Poderia me ajudar a pegar elas, por favor?"
+	"É impressionante!"
 ]
 const fala_final: Array[String] = [
 	"Você recuperou minhas moedas!",
-	"muito obrigada meu jovem",
-	"Tome aqui um pequeno agradecimento"
+	"muito obrigada, pode ficar com elas!",
+	"Tome cuidado porque o tempo nas estações vão diminuindo."
 ]
 
 func _ready() -> void:
@@ -27,5 +27,5 @@ func interagindo():
 	await Gerentedialogo.dialogo_acaba
 	
 func concluir_missao():
-	Tudo.moeda = 3 
+	Tudo.moeda = 8
 	print("Moedas do jogador ajustadas para:", Tudo.moeda)
